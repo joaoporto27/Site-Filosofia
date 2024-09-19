@@ -99,3 +99,42 @@ body {
     background-color: #e30613;
     color: #ffffff;
 }
+
+.article-content{
+    align-items: end;
+    justify-content: end;
+    display: flex;
+    flex-direction: column;
+    margin: 6px;
+    margin-top:  8px; 
+}
+
+.section-tittle{
+    align-items: end;
+    align-content: end;
+    justify-content: end;
+    margin: 6px;
+    margin-right: 20%
+}
+
+.section-text {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    margin-left: 40%;
+    margin-right: 10%;
+    margin-top: 2%;
+}
+
+img#img\=main {
+    border-radius: 50%;
+    height: 300px;
+    width: 500px; 
+    margin-left: 8%;
+}
+
+.first-text{
+    justify-content: space-between;
+    align-items:center;
+    display: flex;
+}
