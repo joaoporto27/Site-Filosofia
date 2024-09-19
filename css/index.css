@@ -74,3 +74,28 @@ body {
     top: 170px;
     left: 50px;
 }
+
+.carousel{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+}
+
+.carousel-list{
+        display: flex;
+        flex-direction: row;
+        width: 200px;
+        justify-content: center;
+        margin-top: 15px;
+        background-color: #cacaca;
+        margin: 2px;
+        border-radius: 30px;
+        text-decoration: none;
+        color: #000000;
+        align-items: center;
+}
+
+.carousel-list:hover{
+    background-color: #e30613;
+    color: #ffffff;
+}
