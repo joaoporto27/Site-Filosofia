@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+.site-header{
+    background-color: #e30613;
+    color: #ffffff;
+    padding: 1rem 0;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    height: 130px;
+}
+
+.nav-link{
+    color: #ffffff;
+}
+
+.main-nav .nav-list{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-list{
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    margin-right: 50px;
+}
+
+.image-header{
+    width: 300px;
+    height: 5%;
+    align-items: center;
+    display: flex;
+    padding: 20px;
+    margin-left: 5px;
+}
+
+section {
+    padding: 50px 0;
+    text-align: center;
+}
+
+section h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.line01 {
+    width: 400px;
+    height: 3px;
+    background-color: #800000; /* Um vermelho escuro para a linha */
+    margin: 10px auto 20px auto;
+}
+
+
+.line02 {
+    width: 500px;
+    height: 3px;
+    background-color: #800000; /* Um vermelho escuro para a linha */
+    margin: 10px auto 20px auto;
+}
+
+.line03 {
+    width: 300px;
+    height: 3px;
+    background-color: #800000; /* Um vermelho escuro para a linha */
+    margin: 10px auto 20px auto;
+}
+
+.foto-placeholder {
+    width: 750px;
+    height: 430px;
+    margin: 0 auto;
+    border: #333 solid;
+}
+
+
+/* Estilos para o menu de seções (Carreiras, Dicas, etc.) */
+.menu-secoes {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.menu-item {
+    background-color: #e0e0e0;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 30px;
+    border-radius: 20px;
+    font-size: 16px;
+    color: #333;
+    cursor: pointer;
+    outline: none;
+    width: 250px;
+}
+
+.menu-item.active {
+    background-color: #f00000; /* Cor ativa */
+}
+
+.header-banner{
+    display: inline-block;
+    position: relative;
+}
+.banner-text {
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 30px;
+}
+
+.banner {
+    padding: 0;
+    width: 2026px;
+    height: 600px;
+    filter: brightness(0.6);
+}
