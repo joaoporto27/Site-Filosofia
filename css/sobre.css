@@ -109,7 +109,7 @@ section h2 {
     outline: none;
     width: 250px;
 }
-.menu:hover{
+.menu-item:hover{
     background-color: #e30613;
     color: #ffffff;
 }
