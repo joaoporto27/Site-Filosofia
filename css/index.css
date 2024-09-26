@@ -59,6 +59,15 @@ body {
     margin-left: 5px;
 }
 
+.image-header2{
+    width: 270px;
+    height: 5%;
+    align-items: center;
+    display: flex;
+    padding: 20px;
+    margin-left: 5px;
+}
+
 .painel{
     position: relative;
 }
