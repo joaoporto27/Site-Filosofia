@@ -74,12 +74,6 @@ section h2 {
     margin: 10px auto 20px auto;
 }
 
-.line03 {
-    width: 300px;
-    height: 3px;
-    background-color: #800000; /* Um vermelho escuro para a linha */
-    margin: 10px auto 20px auto;
-}
 
 .foto-placeholder {
     width: 750px;
@@ -114,12 +108,11 @@ section h2 {
     color: #ffffff;
 }
 
-
-
 .header-banner{
     display: inline-block;
     position: relative;
 }
+
 .banner-text {
     position: absolute;
     margin-top: 250px;
@@ -128,7 +121,73 @@ section h2 {
 
 .banner {
     padding: 0;
-    width: 2026px;
+    width: fit-content;
     height: 600px;
     filter: brightness(0.6);
 }
+
+/* Layout dos participantes */
+.participantes {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 50px;
+    gap: 50px; /* Espaçamento horizontal e vertical entre os participantes */
+}
+
+
+.participante {
+    width: 20%;
+    margin: 20px;
+    text-align: center;
+    background-color: transparent;
+    color: #fff;
+}
+
+.participante img {
+    width: 300px; 
+    height: 300px; 
+    border-radius: 50%;
+    border: 5px solid #202020; 
+    object-fit: cover; 
+    transition: transform 0.3s ease-in-out;
+}
+
+.participante img:hover {
+    transform: scale(1.1); 
+}
+
+
+.participante h3, .participante p {
+    margin: 10px 0 0;
+    font-size: 1em;
+    color: #d82f0d;
+    line-height: 1.2; 
+}
+
+.participante p {
+    color: #000000; 
+    font-size: 0.9em; 
+}
+
+
+.participante:nth-child(4) {
+    margin-left: 10%; 
+}
+
+.participante:nth-child(5) {
+    margin-right: 10%; 
+}
+
+.footer-geral {
+    background-color: #9A1915;
+    height: 100%;
+    color: #ffffff;
+}
+
+.line04 {
+    background-color: #e30613;
+    height: 50px;
+    border: #e30613;
+}
+
