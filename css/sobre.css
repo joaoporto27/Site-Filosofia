@@ -126,13 +126,30 @@ section h2 {
     filter: brightness(0.6);
 }
 
-/* Layout dos participantes */
+.title-section {
+    text-align: center;
+}
+
+.line03 {
+    width: 300px;
+    height: 3px;
+    background-color: #800000; /* Um vermelho escuro para a linha */
+    margin: 10px auto 20px auto;
+} 
+
+.foto-placeholder {
+    width: 750px;
+    height: 430px;
+    margin: 0 auto;
+    border: #333 solid;
+}
+
 .participantes {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     padding: 50px;
-    gap: 50px; /* Espaçamento horizontal e vertical entre os participantes */
+    gap: 50px; 
 }
 
 
