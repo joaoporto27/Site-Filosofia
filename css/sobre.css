@@ -8,7 +8,10 @@
 }
 
 body {
-    font-family: "Montserrat", sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+    background-color: #f0f2f5;
+    color: #333;
 }
 
 .site-header{
@@ -99,46 +102,45 @@ section h2 {
 
 
 /* Estilos para o menu de seções (Carreiras, Dicas, etc.) */
-.menu-secoes {
+.carousel{
+    width: 100%;
     display: flex;
+    justify-content: space-between;
+}
+
+.carousel-list{
+    display: flex;
+    flex-direction: row;
+    width: 200px;
     justify-content: center;
-    margin-top: 20px;
-}
-
-.menu-item {
-    background-color: #e0e0e0;
-    border: none;
-    padding: 10px 20px;
+    margin-top: 15px;
+    background-color: #cacaca;
+    margin: 2px;
+    border-radius: 30px;
     text-decoration: none;
-    margin: 0 30px;
-    border-radius: 20px;
-    font-size: 16px;
-    color: #333;
-    cursor: pointer;
-    outline: none;
-    width: 250px;
-}
-.menu-item:hover{
-    background-color: #e30613;
-    color: #ffffff;
+    color: #000000;
+    align-items: center;
 }
 
-.header-banner{
-    display: inline-block;
+.carousel-list:hover{
+background-color: #e30613;
+color: #ffffff;
+}
+
+.painel{
     position: relative;
 }
-
-.banner-text {
-    position: absolute;
-    margin-top: 250px;
-    margin-left: 30px;
+.painel-image{
+    position: relative;
+    width: 100%;
+    height: 509.06px;
+    filter: brightness(50%);
 }
-
-.banner {
-    padding: 0;
-    width: fit-content;
-    height: 600px;
-    filter: brightness(0.6);
+.painel-text{
+    position: absolute;
+    color: aliceblue;
+    top: 170px;
+    left: 50px;
 }
 
 .title-section {
@@ -220,6 +222,5 @@ section h2 {
 .line04 {
     background-color: #e30613;
     height: 50px;
-    border: #e30613;
+    border: #e30613;
 }
-
