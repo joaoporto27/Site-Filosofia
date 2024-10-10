@@ -196,6 +196,12 @@ body {
     color: #ffffff;
 }
 
+#titulo-main{
+    font-size: 2rem;
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+
 .introducao {
     display: flex;
     flex-direction: column;
@@ -241,6 +247,17 @@ body {
     margin-left: 3rem;
     margin-top: 1rem;
     margin-right: 3rem;
+}
+
+.grafic{
+    margin-top: 3rem;
+    margin-left: 2rem;
+}
+
+.grafic-img{
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
 }
 
 .footer {
