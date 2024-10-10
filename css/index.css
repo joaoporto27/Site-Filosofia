@@ -82,7 +82,7 @@ body {
     background-color: #ff0000;
     backdrop-filter: blur(10px);
     position: absolute;
-    top: 82px;
+    top: 6rem;
     right: 0;
     width: 405px;
     height: 0;
@@ -91,6 +91,8 @@ body {
     overflow: hidden;
     margin-right: 0;
     z-index: 2;
+    align-items: center;
+    justify-content: center;
 }
 
 .menu-mobile.abrir ul {
@@ -477,4 +479,35 @@ body {
   .footer-text {
     background-color: #9a1915;
     color: white;
+  }
+
+.control-page {
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10.5rem;
+}
+
+.icon-pages {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+  .icon-pages img{
+    border-radius: 100%;
+    width: 8rem;
+    height: 8rem;
+    border: #9a1915 solid;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .text-page{
+    color: #000000;
+    font-size: 1.3rem;;
   }
