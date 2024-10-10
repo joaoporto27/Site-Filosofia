@@ -223,4 +223,63 @@ section h2 {
   height: 4px;
   background-color: red;
   margin: 0 auto 20px;
+  padding: 38px;
+}
+
+.carreiras {
+  padding: 2rem;
+}
+
+.carreiras-title {
+  display: flex;
+}
+
+.carreiras-title h2 {
+  font-size: 30px;
+  border-bottom: 4px solid #800000; 
+  margin-bottom: 3rem;
+  padding: 38px;
+}
+
+.carreiras-image{
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem 0;
+}
+
+
+.image-card {
+  display: flex;
+  flex-direction: column;
+  width: 400px; 
+  height: auto;
+  padding: 35px;
+}
+
+.carreiras-text {
+  margin-top: 1.5rem;
+}
+
+.carreiras-text h2 {
+  font-size: 22px;
+  margin-bottom: 0.6rem;
+  color: rgb(71, 71, 71);
+}
+
+.carreiras-text p {
+  font-size: 18px;
+  color: #333; 
+  text-align: justify; 
+}
+
+.footer-geral {
+  background-color: #9A1915;
+  height: 100%;
+  color: #ffffff;
+}
+
+.line04 {
+  background-color: #e30613;
+  height: 50px;
+  border: #e30613;
 }
