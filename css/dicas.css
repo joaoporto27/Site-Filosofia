@@ -153,6 +153,49 @@ body {
     border: 0px solid #000000;
 }
 
+.painel {
+    position: relative;
+}
+
+.painel-image {
+    position: relative;
+    width: 100%;
+    filter: brightness(50%);
+}
+
+.painel-text {
+    position: absolute;
+    color: aliceblue;
+    top: 170px;
+    left: 50px;
+    font-size: 2.5rem;
+}
+
+.carousel {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.carousel-list {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    margin-top: 15px;
+    background-color: #cacaca;
+    margin: 2px;
+    border-radius: 30px;
+    text-decoration: none;
+    color: #000000;
+    align-items: center;
+}
+
+.carousel-list:hover {
+    background-color: #e30613;
+    color: #ffffff;
+}
+
 .introducao {
     display: flex;
     flex-direction: column;
@@ -165,7 +208,7 @@ body {
     flex-direction:row;
 }
 
-.gambiarra{
+.text{
     display: flex;
     flex-direction: column;
 }
@@ -177,6 +220,7 @@ body {
     justify-items: flex-start;
     width: 10rem;
     margin-top: 2rem;
+    margin-left: 3rem;
 }
 
 .titulo{
@@ -196,4 +240,63 @@ body {
 .text-intro {
     margin-left: 3rem;
     margin-top: 1rem;
+    margin-right: 3rem;
 }
+
+.footer {
+    background-color: #9a1915;
+    color: white;
+    margin-top: 50px;
+  }
+  
+  .footer .icones {
+    background-color: #e30613;
+  }
+  
+  .senai {
+    width: 20%;
+    display: inline-block;
+    text-align: center;
+    padding: 30px 0 20px 0;
+    margin-left: 29%;
+  }
+  
+  .senai h3 {
+    text-align: left;
+  }
+  
+  .senai p {
+    text-align: left;
+  }
+  
+  .sesi {
+    width: 20%;
+    display: inline-block;
+    margin-left: 3%;
+    text-align: center;
+    padding: 0 0 20px 0px;
+  }
+  
+  .sesi h3 {
+    text-align: left;
+  }
+  
+  .sesi p {
+    text-align: left;
+  }
+  
+  .footer .icons img {
+    display: inline-block;
+    margin-left: 25px;
+  }
+  
+  .icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .footer-text {
+    background-color: #9a1915;
+    color: white;
+  }
