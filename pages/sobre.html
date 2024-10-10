@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SESI | SENAI - Sobre Nós</title>
     <link rel="stylesheet" href="../css/sobre.css">
+    <script src="/"></script>
+    <title>SESI | SENAI - Sobre Nós</title>
 </head>
 <body>
     <header class="site-header">
@@ -12,6 +13,7 @@
         <img class="image-header2" src="../img/sesi.jpeg" alt="Logo">
         <img class="image-header" src="../img/senai.jpeg" alt="">
     </div>
+        <div class="line-header"></div>
         <nav class="main-nav">
             <ul class="nav-list">
                 <li class="nav-list"><a href="../index.html" class="nav-link">Home</a></li>
@@ -19,6 +21,34 @@
                 <li class="nav-list"><a href="" class="nav-link">Cadastre-se</a></li>
             </ul>
         </nav>
+
+        <button onclick="animar(), animarMenu()" id="btn-menu"></button>
+            <span class="linha"></span>
+            <span class="linha"></span>
+            <span class="linha"></span>
+        </button>
+        <div class="menu-mobile" id="menu-materias">
+            <nav class="menu-materias" id="menu-materias">
+                <ul>
+                    <li><a href="portugues.html">Português</a> </li>
+                    <li><a href="matematica.html">Matemática</a></li>
+                    <li><a href="historia.html">História</a></li>
+                    <li><a href="geografia.html">Geografia</a></li>
+                    <li><a href="biologia.html">Biologia</a></li>
+                    <li><a href="fisica.html">Física</a></li>
+                    <li><a href="quimica.html">Química</a></li>
+                    <li><a href="artes.html">Artes</a></li>
+                    <li><a href="filosofia.html">Filosofia</a></li>
+                    <li class="sociologia"><a href="sociologia.html" class="sociologia-link">Sociologia</a>
+                        <button onclick="animar2(), animarMenu2()" id="btn-menu2">
+                            <span class="linha2"></span>
+                            <span class="linha2-1"></span>
+                        </button>
+                    </li>
+                    <li><a href="edFisica.html">Ed. Física</a></li>
+                    <li><a href="ingles.html">Inglês</a></li>
+                </ul>
+            </nav>
     </header>
 
     <div class="painel">
@@ -30,7 +60,7 @@
     <div class="carousel">
         <li class="carousel-list"><a href="../index.html" class="carousel-list">Home</a></li>
         <li class="carousel-list"><a href="./sobre.html" class="carousel-list">Sobre</a></li>
-        <li class="carousel-list"><a href="" class="carousel-list">Carreiras</a></li>
+        <li class="carousel-list"><a href="../pages/carreiras.html" class="carousel-list">Carreiras</a></li>
         <li class="carousel-list"><a href="" class="carousel-list">Dicas</a></li>
         <li class="carousel-list"><a href="" class="carousel-list">Simulados</a></li>
         <li class="carousel-list"><a href="" class="carousel-list">Notícia</a></li>
