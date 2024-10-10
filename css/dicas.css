@@ -152,3 +152,48 @@ body {
 #btn-menu.ativo{
     border: 0px solid #000000;
 }
+
+.introducao {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: flex-start;
+}
+
+.intro-content {
+    display: flex;
+    flex-direction:row;
+}
+
+.gambiarra{
+    display: flex;
+    flex-direction: column;
+}
+
+.dica-img {
+    height: 10rem;
+    display: flex; 
+    flex-direction: row;
+    justify-items: flex-start;
+    width: 10rem;
+    margin-top: 2rem;
+}
+
+.titulo{
+    display: flex;
+    flex-direction: column;
+    margin-left: 3rem;
+    margin-top: 2rem;
+}
+
+.subtitulo {
+    display: flex;  
+    flex-direction: column;
+    margin-top: 1rem;
+    margin-left: 3rem;
+}
+
+.text-intro {
+    margin-left: 3rem;
+    margin-top: 1rem;
+}
