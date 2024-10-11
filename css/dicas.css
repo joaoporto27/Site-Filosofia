@@ -229,6 +229,11 @@ body {
     margin-left: 3rem;
 }
 
+.dica-img:hover{    
+    transform: scale(1.3);
+    transition: 2s ease;
+}
+
 .titulo{
     display: flex;
     flex-direction: column;
