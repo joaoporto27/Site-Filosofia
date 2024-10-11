@@ -322,3 +322,237 @@ body {
     background-color: #9a1915;
     color: white;
   }
+
+@media (max-width: 768px) {
+    .site-header {
+        flex-direction: column;
+        height: auto;
+        padding: 1rem;
+        width: auto;
+        font-size: 1rem;
+    }
+
+    .imagens {
+        width: auto;
+        justify-content: center;
+        height: auto;
+    }
+
+    .image-header, .image-header2 {
+        width: 40%;
+        padding: 10px;
+        margin-left: 0;
+    }
+
+    .line-header {
+        display: none;
+    }
+
+    .nav-list {
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+        margin: 0;
+    }
+
+    .nav-link {
+        padding: 10px; 
+        font-size: 1rem; 
+    }
+
+    .painel-text {
+        top: 100px; 
+        left: 20px; 
+        font-size: 1.5rem;
+        text-align: left;
+    }
+
+    .carousel {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .carousel-list {
+        width: 100%;
+        margin: 10px; 
+        justify-content: center;
+        font-size: 18px; 
+    }
+
+    #titulo-main {
+        font-size: 1.75rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    .intro-content {
+        flex-direction: column;
+        align-items: center;
+        margin: 1rem 0;
+    }
+
+    .dica-img {
+        width: 80%;
+        margin-left: 0;
+    }
+
+    .text-intro {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    .senai,
+    .sesi {
+        width: 100%; 
+        text-align: center; 
+        margin-left: 0;
+        padding: 15px 0; 
+    }
+
+    .senai h3, .sesi h3, .senai p, .sesi p {
+        text-align: center; 
+    }
+
+    .footer .icons img {
+        width: 35px; 
+        height: 35px;
+        margin-left: 10px;
+    }
+
+    .footer {
+        padding: 15px 0; 
+    }
+}
+
+@media (max-width: 480px) {
+    .site-header {
+        flex-direction: column;
+        height: auto;
+        padding: 1rem;
+        width: auto;
+        font-size: 1rem;
+    }
+
+    .imagens {
+        width: auto;
+        justify-content: center;
+        height: auto;
+    }
+
+    .image-header, .image-header2 {
+        width: 40%;
+        padding: 10px;
+        margin-left: 0;
+    }
+
+    .line-header {
+        display: none;
+    }
+
+    .nav-list {
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+        margin: 0;
+    }
+
+    .nav-link {
+        padding: 10px; 
+        font-size: 1rem; 
+    }
+
+    .carousel {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .carousel-list {
+        width: 100%;
+        margin: 10px; 
+        justify-content: center;
+        font-size: 18px; 
+    }
+
+    .painel-text {
+        top: 60px;
+        left: 10px;
+        font-size: 1.2rem;
+        text-align: left;
+        margin-bottom: 1rem; 
+    }
+
+    .carousel {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .carousel-list {
+        width: 95%;
+        margin: 5px 0;
+    }
+
+    #titulo-main {
+        font-size: 1.5rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    .intro-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .dica-img {
+        width: 70%;
+        height: auto; 
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .text-intro {
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+    }
+
+    .grafic-img img {
+        width: 95%;
+        height: auto; 
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .icon-pages {
+        width: 100%; 
+        margin: 0.5rem 0;
+    }
+
+    .icon-pages img {
+        width: 5rem;
+        height: 5rem;
+    }
+
+    .text-page {
+        font-size: 1rem;
+    }
+    .senai,
+    .sesi {
+        width: 100%; 
+        text-align: center; 
+        margin-left: 0;
+        padding: 15px 0; 
+    }
+
+    .senai h3, .sesi h3, .senai p, .sesi p {
+        text-align: center; 
+    }
+
+    .footer .icons img {
+        width: 35px; 
+        height: 35px;
+        margin-left: 10px;
+    }
+
+    .footer {
+        padding: 15px 0; 
+    }
+}
