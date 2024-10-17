@@ -255,7 +255,7 @@ color: #ffffff;
     border: #333 solid;
 }
 
-.participantes {
+.participantes1 {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -263,6 +263,13 @@ color: #ffffff;
     gap: 50px; 
 }
 
+.participantes2 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 50px;
+    gap: 50px; 
+}
 
 .participante {
     width: 20%;
@@ -363,4 +370,187 @@ color: #ffffff;
 .footer-text {
     background-color: #9a1915;
     color: white;
+}
+
+@media (max-width: 768px) {
+    .site-header {
+        flex-direction: column;
+        height: auto;
+        padding: 1rem;
+        width: auto;
+        font-size: 1rem;
+    }
+
+    .imagens {
+        width: auto;
+        justify-content: center;
+        height: auto;
+    }
+
+    .image-header, .image-header2 {
+        width: 40%;
+        padding: 10px;
+        margin-left: 0;
+    }
+
+    .line-header {
+        display: none;
+    }
+
+    .nav-list {
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+        margin: 0;
+    }
+
+    .nav-link {
+        padding: 10px; 
+        font-size: 1rem; 
+    }
+
+    .painel-text {
+        top: 100px; 
+        left: 20px; 
+        font-size: 1.5rem;
+        text-align: left;
+    }
+
+    .carousel {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .carousel-list {
+        width: 100%;
+        margin: 10px; 
+        justify-content: center;
+        font-size: 18px; 
+    }
+
+    .foto-placeholder {
+        width: 90%;
+    }
+
+    .participantes1, .participantes2, .participante {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .senai,
+    .sesi {
+        width: 100%; 
+        text-align: center; 
+        margin-left: 0;
+        padding: 15px 0; 
+    }
+
+    .senai h3, .sesi h3, .senai p, .sesi p {
+        text-align: center; 
+    }
+
+    .footer .icons img {
+        width: 35px; 
+        height: 35px;
+        margin-left: 10px;
+    }
+
+    .footer {
+        padding: 15px 0; 
+    }
+}
+
+
+@media (max-width: 480px) {
+    .site-header {
+        flex-direction: column;
+        height: auto;
+        padding: 0.5rem;
+        width: auto;
+        font-size: 1rem; 
+    }
+
+    .imagens {
+        width: auto;
+        justify-content: center;
+        height: auto;
+        flex-direction: column; 
+    }
+
+    .image-header, .image-header2 {
+        width: 60%; 
+        padding: 5px;
+        margin-left: 0;
+    }
+
+    .line-header {
+        display: none; 
+    }
+
+    .nav-list {
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+        margin: 0;
+    }
+
+    .nav-link {
+        padding: 5px; 
+        font-size: 1rem; 
+    }
+
+    .painel-text {
+        top: 70px;
+        left: 10px;
+        font-size: 1.2rem;
+        text-align: left;
+        margin-bottom: 1rem; 
+    }
+
+    .carousel {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .carousel-list {
+        width: 100%;
+        margin: 5px; 
+        justify-content: center;
+        font-size: 16px; 
+    }
+
+    .carousel-list {
+        font-size: 1rem; 
+    }
+
+    .foto-placeholder {
+        width: 30%;
+    }
+
+    .participantes1, .participantes2, .participante {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer .icons img {
+        width: 30px; 
+        height: 30px;
+        margin-left: 5px;
+    }
+
+    .footer .icons {
+        flex-wrap: wrap;
+    }
+
+    .senai,
+    .sesi {
+        width: 100%;
+        padding: 10px 0; 
+    }
+
+    .senai h3, .sesi h3, .senai p, .sesi p {
+        font-size: 1rem; 
+    }
 }
