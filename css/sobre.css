@@ -78,11 +78,11 @@ body {
     margin-right: 20px;
 }
 
-.menu-mobile ul{
+.menu-mobile ul {
     background-color: #ff0000;
     backdrop-filter: blur(10px);
     position: absolute;
-    top: 82px;
+    top: 95px;
     right: 0;
     width: 405px;
     height: 0;
@@ -90,42 +90,45 @@ body {
     transition: 0.5s;
     overflow: hidden;
     margin-right: 0;
-    z-index: 2;
-}
-
-.menu-mobile.abrir ul {
+    z-index: 4;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .menu-mobile.abrir ul {
     visibility: visible;
     height: calc(72vh - 7px);
-}
-
-.menu-mobile ul li:hover{
+  }
+  
+  .menu-mobile ul li:hover {
     background-color: #000000c4;
-    }
-
-.menu-mobile ul li {
+  }
+  
+  .menu-mobile ul li {
     display: block;
-    padding: 10px ;
-    font-size: 16px ;
+    padding: 10px;
+    font-size: 16px;
     text-align: center;
-}
-
-.menu-mobile ul li a{
+  }
+  
+  .menu-mobile ul li a {
     color: #ffffff;
     text-decoration: none;
-}
-#btn-menu{
+  }
+  
+  #btn-menu {
     width: 45px;
     height: 45px;
     border: 0px solid #ff0000;
     background: transparent;
     border-radius: 10px;
     position: absolute;
-    right: 30px;
-    top: 20px;
+    right: 40px;
+    top: 40px;
     cursor: pointer;
-}
-
-.linha{
+  }
+  
+  .linha {
     width: 40px;
     height: 3px;
     background-color: #ffffff;
@@ -134,24 +137,27 @@ body {
     position: relative;
     transform-origin: center;
     transition: .2s;
-}
-
-#btn-menu.ativo .linha:nth-child(1){
+  }
+  
+  #btn-menu.ativo .linha:nth-child(1) {
     transform: translateY(12px) rotate(-45deg);
     background-color: #ffffff;
-}
-#btn-menu.ativo .linha:nth-child(3){
+  }
+  
+  #btn-menu.ativo .linha:nth-child(3) {
     transform: translateY(-15px) rotate(45deg);
     background-color: #ffffff;
-}
-#btn-menu.ativo .linha:nth-child(2){
+  }
+  
+  #btn-menu.ativo .linha:nth-child(2) {
     width: 0;
-
     height: 4px;
-}
-#btn-menu.ativo{
+  }
+  
+  #btn-menu.ativo {
     border: 0px solid #000000;
-}
+  }
+
 
 section {
     padding: 50px 0;
@@ -197,7 +203,7 @@ section h2 {
 .carousel-list{
     display: flex;
     flex-direction: row;
-    width: 200px;
+    width: 100%;
     justify-content: center;
     margin-top: 15px;
     background-color: #cacaca;
@@ -213,20 +219,22 @@ background-color: #e30613;
 color: #ffffff;
 }
 
-.painel{
+.painel {
     position: relative;
 }
-.painel-image{
+
+.painel-image {
     position: relative;
     width: 100%;
-    height: 509.06px;
     filter: brightness(50%);
 }
-.painel-text{
+
+.painel-text {
     position: absolute;
     color: aliceblue;
     top: 170px;
     left: 50px;
+    font-size: 2.5rem;
 }
 
 .title-section {
