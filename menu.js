@@ -5,7 +5,7 @@ function animar(){
 function animarMenu(){
     const menu = document.getElementById('menu-materias');
     menu.classList.toggle('abrir');
-    menu.addEventListener('click', animarMenu);
+    menu.addEventListener('hold', animarMenu);
 }
 
 function animar2(){
@@ -15,5 +15,5 @@ function animar2(){
 function animarMenu2(){
     const menu = document.getElementById('menu-menu');
     menu.classList.toggle('abrir2');
-    menu.addEventListener('click', animarMenu);
+    menu.addEventListener('hold', animarMenu);
 }
