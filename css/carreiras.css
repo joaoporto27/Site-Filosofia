@@ -255,13 +255,12 @@ section h2 {
   justify-content: center;
   gap: 10rem;
   margin: 2rem 5rem;
-  width: 100%;
 }
 
-.image-card {
+.image-card img {
   display: flex;
   flex-direction: column;
-  width: 400px;
+  width: 25rem;
   height: auto;
   padding: 35px;
 }
@@ -350,4 +349,122 @@ section h2 {
 .footer-text {
   background-color: #9a1915;
   color: white;
+}
+
+@media (max-width: 768px) {
+  .site-header {
+      flex-direction: column;
+      height: auto;
+      padding: 1rem;
+      width: auto;
+      font-size: 1rem;
+  }
+
+  .imagens {
+      width: auto;
+      justify-content: center;
+      height: auto;
+  }
+
+  .image-header, .image-header2 {
+      width: 40%;
+      padding: 10px;
+      margin-left: 0;
+  }
+
+  .line-header {
+      display: none;
+  }
+
+  .nav-list {
+      width: 100%;
+      flex-direction: column;
+      text-align: center;
+      margin: 0;
+  }
+
+  .nav-link {
+      padding: 10px; 
+      font-size: 1rem; 
+  }
+
+  .painel-text {
+      top: 100px; 
+      left: 20px; 
+      font-size: 1.5rem;
+      text-align: left;
+  }
+
+  .carousel {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .carousel-list {
+      width: 100%;
+      margin: 10px; 
+      justify-content: center;
+      font-size: 18px; 
+  }
+
+  .carreiras-image {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .image-card {
+    width: 50%;
+    flex-direction: column;
+    align-items: flex-start;
+    height: auto;
+    margin: 0 0 5rem 0;
+  }
+
+  .carreiras-text {
+    margin: 0 2rem;
+    text-align: center;
+    width: 20rem;
+  }
+
+  .control-page {
+      flex-direction: column;
+      gap: 1.5rem; 
+  }
+
+  .icon-pages {
+      width: 100%; 
+      margin: 0.5rem 0;
+  }
+
+  .icon-pages img {
+      width: 5rem;
+      height: 5rem;
+  }
+
+  .text-page {
+      font-size: 1rem;
+  }
+  .senai,
+  .sesi {
+      width: 100%; 
+      text-align: center; 
+      margin-left: 0;
+      padding: 15px 0; 
+  }
+
+  .senai h3, .sesi h3, .senai p, .sesi p {
+      text-align: center; 
+  }
+
+  .footer .icons img {
+      width: 35px; 
+      height: 35px;
+      margin-left: 10px;
+  }
+
+  .footer {
+      padding: 15px 0; 
+  }
 }
