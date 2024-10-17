@@ -51,7 +51,7 @@ body {
 }
 
 .image-header {
-  width: 300px;
+  width: 20rem;
   height: 5%;
   align-items: center;
   display: flex;
@@ -60,7 +60,7 @@ body {
 }
 
 .image-header2 {
-  width: 270px;
+  width: 18rem;
   height: 5%;
   align-items: center;
   display: flex;
@@ -76,11 +76,12 @@ body {
   margin-right: 20px;
 }
 
+/* menu mobile */
 .menu-mobile ul {
   background-color: #ff0000;
   backdrop-filter: blur(10px);
   position: absolute;
-  top: 82px;
+  top: 95px;
   right: 0;
   width: 405px;
   height: 0;
@@ -88,7 +89,9 @@ body {
   transition: 0.5s;
   overflow: hidden;
   margin-right: 0;
-  z-index: 2;
+  z-index: 4;
+  display: flex;
+  flex-direction: column;
 }
 
 .menu-mobile.abrir ul {
@@ -111,6 +114,7 @@ body {
   color: #ffffff;
   text-decoration: none;
 }
+
 #btn-menu {
   width: 45px;
   height: 45px;
@@ -118,8 +122,8 @@ body {
   background: transparent;
   border-radius: 10px;
   position: absolute;
-  right: 30px;
-  top: 20px;
+  right: 40px;
+  top: 40px;
   cursor: pointer;
 }
 
@@ -138,18 +142,20 @@ body {
   transform: translateY(12px) rotate(-45deg);
   background-color: #ffffff;
 }
+
 #btn-menu.ativo .linha:nth-child(3) {
   transform: translateY(-15px) rotate(45deg);
   background-color: #ffffff;
 }
+
 #btn-menu.ativo .linha:nth-child(2) {
   width: 0;
-
   height: 4px;
 }
 #btn-menu.ativo {
   border: 0px solid #000000;
 }
+/* fim menu mobile */
 
 section {
   padding: 50px 0;
@@ -185,7 +191,7 @@ section h2 {
 .carousel-list {
   display: flex;
   flex-direction: row;
-  width: 200px;
+  width: 100%;
   justify-content: center;
   margin-top: 15px;
   background-color: #cacaca;
@@ -204,17 +210,20 @@ section h2 {
 .painel {
   position: relative;
 }
+
 .painel-image {
   position: relative;
   width: 100%;
-  height: 509.06px;
+  height: 70vh;
   filter: brightness(50%);
 }
+
 .painel-text {
   position: absolute;
   color: aliceblue;
   top: 170px;
   left: 50px;
+  font-size: 2.5rem;
 }
 
 /* Decorative line */
@@ -222,7 +231,7 @@ section h2 {
   width: 80px;
   height: 4px;
   background-color: red;
-  margin: 0 auto 20px;
+  margin: 0 auto px;
   padding: 38px;
 }
 
@@ -236,22 +245,23 @@ section h2 {
 
 .carreiras-title h2 {
   font-size: 30px;
-  border-bottom: 4px solid #800000; 
+  border-bottom: 4px solid #800000;
   margin-left: 2rem;
   padding: 38px;
 }
 
-.carreiras-image{
+.carreiras-image {
   display: flex;
-  justify-content: space-between;
-  margin: 2rem 0;
+  justify-content: center;
+  gap: 10rem;
+  margin: 2rem 5rem;
+  width: 100%;
 }
-
 
 .image-card {
   display: flex;
   flex-direction: column;
-  width: 400px; 
+  width: 400px;
   height: auto;
   padding: 35px;
 }
@@ -267,13 +277,13 @@ section h2 {
 }
 
 .carreiras-text p {
-  font-size: 18px;
-  color: #333; 
-  text-align: justify; 
+  font-size: 1.3rem;
+  color: #333;
+  text-align: justify;
 }
 
 .footer-geral {
-  background-color: #9A1915;
+  background-color: #9a1915;
   height: 100%;
   color: #ffffff;
 }
@@ -281,5 +291,63 @@ section h2 {
 .line04 {
   background-color: #e30613;
   height: 50px;
-  border: #e30613;
+  border: #e30613;
+}
+
+.footer {
+  background-color: #9a1915;
+  color: white;
+  margin-top: 50px;
+}
+
+.footer .icones {
+  background-color: #e30613;
+}
+
+.senai {
+  width: 20%;
+  display: inline-block;
+  text-align: center;
+  padding: 30px 0 20px 0;
+  margin-left: 29%;
+}
+
+.senai h3 {
+  text-align: left;
+}
+
+.senai p {
+  text-align: left;
+}
+
+.sesi {
+  width: 20%;
+  display: inline-block;
+  margin-left: 3%;
+  text-align: center;
+  padding: 0 0 20px 0px;
+}
+
+.sesi h3 {
+  text-align: left;
+}
+
+.sesi p {
+  text-align: left;
+}
+
+.footer .icons img {
+  display: inline-flex;
+  margin-left: 25px;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-text {
+  background-color: #9a1915;
+  color: white;
 }
