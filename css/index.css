@@ -75,7 +75,7 @@ header {
 }
 
 .image-header {
-    width: 25%;
+    width: 24%;
     height: 5%;
     align-items: center;
     display: flex;
@@ -84,7 +84,7 @@ header {
 }
 
 .image-header2 {
-    width: 22%;
+    width: 19.7%;
     height: 5%;
     align-items: center;
     display: flex;
@@ -454,8 +454,8 @@ header {
     }
 
     .icon-pages img {
-        width: 5rem;
-        height: 5rem;
+        width: 100%;
+        height: 100%;
     }
 
     .text-page {
