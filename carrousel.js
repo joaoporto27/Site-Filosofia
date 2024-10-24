@@ -1,16 +1,24 @@
-const productContainers = [...document.querySelectorAll('.product-container')];
-const nxtBtn = [...document.querySelectorAll('.nxt-btn')];
-const preBtn = [...document.querySelectorAll('.pre-btn')];
+const changeSlideButtons = document.querySelectorAll("[data-change-slide-button]")
 
-productContainers.forEach((item, i) => {
-    let containerDimensions = item.getBoundingClientRect();
-    let containerWidth = containerDimensions.width;
+changeSlideButtons.forEach(button => {
+  button.addEventListener("click", () => {
+    const slides = document.querySelector(".slides")
+    const activeSlide = slides.querySelector("[data-active]")
+    let indexActiveSlide = Array.from(slides.children).indexOf(activeSlide)
 
-    nxtBtn[i].addEventListener('click', () => {
-        item.scrollLeft += containerWidth;
-    })
+    indexActiveSlide = button.dataset.changeSlideButton === "next" 
+    ?  indexActiveSlide + 1 
+    :  indexActiveSlide - 1
 
-    preBtn[i].addEventListener('click', () => {
-        item.scrollLeft -= containerWidth;
-    })
+    if (indexActiveSlide >= slides.children.length) {
+      indexActiveSlide = 0
+    }
+
+    if (indexActiveSlide < 0) {
+      indexActiveSlide = slides.children.length - 1
+    }
+
+    activeSlide.removeAttribute("data-active")
+    slides.children[indexActiveSlide].dataset.active = true
+  })
 })
