@@ -13,7 +13,7 @@ body {
   color: #333;
 }
 
-.site-header {
+header {
   background-color: #e30613;
   color: #ffffff;
   padding: 1rem 0;
@@ -22,36 +22,55 @@ body {
   align-items: center;
   justify-content: space-around;
   flex-direction: row;
-  height: 130px;
+  height: 8.125rem;
 }
 
 .nav-link {
-  color: #ffffff;
-  font-size: 19px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  gap: 1.5rem;
+  margin-right: 4rem;  
   text-decoration: none;
+  color: #ffffff;
+}
+
+.nav-link a {
+  display: flex;
+  color: #ffffff;
+  font-size: 1.3rem;
+  border-bottom: 3px solid transparent;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
 }
 
 .main-nav .nav-list {
   list-style: none;
+  margin: 0 3rem;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
 }
 
 .nav-list {
   display: flex;
   justify-content: space-between;
-  width: 500px;
-  margin-right: 50px;
+  align-items: center;
+  width: 100%;
 }
 
 .imagens {
-  width: 900px;
+  width: 50%;
   display: flex;
   flex-direction: row;
 }
 
 .image-header {
-  width: 20rem;
+  width: 24%;
   height: 5%;
   align-items: center;
   display: flex;
@@ -60,7 +79,7 @@ body {
 }
 
 .image-header2 {
-  width: 18rem;
+  width: 19.7%;
   height: 5%;
   align-items: center;
   display: flex;
@@ -167,46 +186,6 @@ section h2 {
   margin-bottom: 20px;
 }
 
-.line01 {
-  width: 400px;
-  height: 3px;
-  background-color: #800000; /* Um vermelho escuro para a linha */
-  margin: 10px auto 20px auto;
-}
-
-.line02 {
-  width: 500px;
-  height: 3px;
-  background-color: #800000; /* Um vermelho escuro para a linha */
-  margin: 10px auto 20px auto;
-}
-
-/* Estilos para o menu de seções (Carreiras, Dicas, etc.) */
-.carousel {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-}
-
-.carousel-list {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  justify-content: center;
-  margin-top: 15px;
-  background-color: #cacaca;
-  margin: 2px;
-  border-radius: 30px;
-  text-decoration: none;
-  color: #000000;
-  align-items: center;
-}
-
-.carousel-list:hover {
-  background-color: #e30613;
-  color: #ffffff;
-}
-
 .painel {
   position: relative;
 }
@@ -214,7 +193,7 @@ section h2 {
 .painel-image {
   position: relative;
   width: 100%;
-  height: 70vh;
+  height: 41rem;
   filter: brightness(50%);
 }
 
@@ -226,16 +205,29 @@ section h2 {
   font-size: 2.5rem;
 }
 
-/* Decorative line */
-.line02 {
-  width: 80px;
-  height: 4px;
-  background-color: red;
-  margin: 0 auto px;
-  padding: 38px;
+.carousel {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.carousel-list{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+  margin-top: 15px;
+  background-color: #cacaca;
+  margin: 2px;
+  border-radius: 30px;
+  text-decoration: none;
+  color: #000000;
+  align-items: center;
+  margin-bottom: none;
 }
 
 .carreiras {
+  margin-top: none;
   padding: 2rem;
 }
 
@@ -244,17 +236,15 @@ section h2 {
 }
 
 .carreiras-title h2 {
-  font-size: 30px;
-  border-bottom: 4px solid #800000;
+  font-size: 1.875rem;
   margin-left: 2rem;
-  padding: 38px;
 }
 
 .carreiras-image {
   display: flex;
   justify-content: center;
   gap: 10rem;
-  margin: 2rem 5rem;
+  margin: 0 5rem;
 }
 
 .image-card img {
@@ -368,6 +358,7 @@ section h2 {
 
   .image-header, .image-header2 {
       width: 40%;
+      height: auto;
       padding: 10px;
       margin-left: 0;
   }
@@ -386,6 +377,10 @@ section h2 {
   .nav-link {
       padding: 10px; 
       font-size: 1rem; 
+  }
+
+  .painel-image {
+    height: 19rem;
   }
 
   .painel-text {
@@ -465,6 +460,250 @@ section h2 {
   }
 
   .footer {
+      padding: 15px 0; 
+  }
+}
+
+@media (max-width: 480px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  .site-header {
+      flex-direction: column;
+      height: auto;
+      padding: 1rem;
+      width: auto;
+      font-size: 1rem;
+  }
+
+  .imagens {
+      width: auto;
+      justify-content: center;
+      height: auto;
+  }
+
+  .image-header, .image-header2 {
+      width: 40%;
+      padding: 10px;
+      margin-left: 0;
+  }
+
+  .line-header {
+      display: none;
+  }
+
+  .nav-list {
+      width: 100%;
+      flex-direction: column;
+      text-align: center;
+      margin: 0;
+  }
+
+  .nav-link {
+      padding: 10px; 
+      font-size: 1rem; 
+  }
+
+  .painel-text {
+      top: 100px; 
+      left: 20px; 
+      font-size: 1.5rem;
+      text-align: left;
+  }
+
+  .painel-image {
+    width: 100%;
+  }
+  .carousel {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .carousel-list {
+      width: 100%;
+      margin: 10px; 
+      justify-content: center;
+      font-size: 18px; 
+  }
+
+  .carreiras-image {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .image-card {
+    width: 10%;
+    flex-direction: column;
+    align-items: flex-start;
+    height: auto;
+    margin: 0 0 0 0;
+  }
+
+  .carreiras-text {
+    margin: 0 2rem;
+    text-align: center;
+    width: 20rem;
+  }
+
+  .control-page {
+      flex-direction: column;
+      gap: 1.5rem; 
+  }
+
+  .icon-pages {
+      width: 100%; 
+      margin: 0.5rem 0;
+  }
+
+  .icon-pages img {
+      width: 5rem;
+      height: 5rem;
+  }
+
+  .text-page {
+      font-size: 1rem;
+  }
+  .senai,
+  .sesi {
+      width: 100%; 
+      text-align: center; 
+      margin-left: 0;
+      padding: 15px 0; 
+  }
+
+  .senai h3, .sesi h3, .senai p, .sesi p {
+      text-align: center; 
+  }
+
+  .footer .icons img {
+      width: 35px; 
+      height: 35px;
+      margin-left: 10px;
+  }
+
+  .footer {
+      width: 100%;
+      padding: 15px 0; 
+  }
+}
+
+@media (max-width: 1440px) {
+  .site-header {
+      padding-right: 5rem;
+      width: auto;
+      font-size: 1rem;
+  }
+
+  .imagens {
+      width: auto;
+      height: auto;
+  }
+
+  .image-header, .image-header2 {
+      width: 30%;
+      padding: 10px;
+      margin-left: 0;
+  }
+
+  .line-header {
+      display: none;
+  }
+
+  .nav-list {
+      width: 100%;
+      text-align: center;
+      margin: 0;
+  }
+
+  .nav-link {
+      padding: 10px; 
+      font-size: 1rem; 
+  }
+
+  .painel-text {
+      top: 100px; 
+      left: 20px; 
+      font-size: 1.5rem;
+      text-align: left;
+  }
+
+  .painel-image {
+    width: rem;
+  }
+
+  .carousel {
+      width: 100%;
+      align-items: center;
+  }
+
+  .carousel-list {
+      width: 100%;
+      margin: 10px; 
+      justify-content: center;
+      font-size: 18px; 
+  }
+
+  .carreiras-image {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .image-card {
+    width: 10%;
+    flex-direction: column;
+    align-items: flex-start;
+    height: auto;
+    margin: 0 10rem 3rem 0;
+  }
+
+  .carreiras-text {
+    margin: 0 2rem;
+    text-align: center;
+    width: 20rem;
+  }
+
+  .control-page {
+      flex-direction: column;
+      gap: 1.5rem; 
+  }
+
+  .icon-pages {
+      width: 100%; 
+      margin: 0.5rem 0;
+  }
+
+  .icon-pages img {
+      width: 5rem;
+      height: 5rem;
+  }
+
+  .text-page {
+      font-size: 1rem;
+  }
+  .senai,
+  .sesi {
+      width: 100%; 
+      text-align: center; 
+      margin-left: 0;
+      padding: 15px 0; 
+  }
+
+  .senai h3, .sesi h3, .senai p, .sesi p {
+      text-align: center; 
+  }
+
+  .footer .icons img {
+      width: 35px; 
+      height: 35px;
+      margin-left: 10px;
+  }
+
+  .footer {
+      width: 100%;
       padding: 15px 0; 
   }
 }
