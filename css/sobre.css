@@ -169,22 +169,6 @@ section h2 {
     margin-bottom: 20px;
 }
 
-.line01 {
-    width: 400px;
-    height: 3px;
-    background-color: #800000; /* Um vermelho escuro para a linha */
-    margin: 10px auto 20px auto;
-}
-
-
-.line02 {
-    width: 500px;
-    height: 3px;
-    background-color: #800000; /* Um vermelho escuro para a linha */
-    margin: 10px auto 20px auto;
-}
-
-
 .foto-placeholder {
     width: 750px;
     height: 430px;
@@ -192,8 +176,6 @@ section h2 {
     border: #333 solid;
 }
 
-
-/* Estilos para o menu de seções (Carreiras, Dicas, etc.) */
 .carousel{
     width: 100%;
     display: flex;
@@ -240,13 +222,6 @@ color: #ffffff;
 .title-section {
     text-align: center;
 }
-
-.line03 {
-    width: 300px;
-    height: 3px;
-    background-color: #800000; /* Um vermelho escuro para a linha */
-    margin: 10px auto 20px auto;
-} 
 
 .foto-placeholder {
     width: 750px;
@@ -430,6 +405,7 @@ color: #ffffff;
 
     .foto-placeholder {
         width: 90%;
+        height: auto;
     }
 
     .participantes1, .participantes2, .participante {
@@ -485,7 +461,7 @@ color: #ffffff;
     }
 
     .line-header {
-        display: none; 
+        display: none;
     }
 
     .nav-list {
@@ -525,7 +501,8 @@ color: #ffffff;
     }
 
     .foto-placeholder {
-        width: 30%;
+        width: 90%;
+        height: auto;
     }
 
     .participantes1, .participantes2, .participante {
