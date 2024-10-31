@@ -226,6 +226,10 @@ section h2 {
   margin-bottom: none;
 }
 
+.section-carreiras {
+  padding: 0 4rem;
+}
+
 .carreiras {
   margin-top: none;
   padding: 2rem;
@@ -233,11 +237,11 @@ section h2 {
 
 .carreiras-title {
   display: flex;
+  padding: 3rem 2rem 0;
 }
 
 .carreiras-title h2 {
   font-size: 1.875rem;
-  margin-left: 2rem;
 }
 
 .carreiras-image {
@@ -247,25 +251,31 @@ section h2 {
   margin: 0 5rem;
 }
 
-.image-card img {
+.card {
   display: flex;
   flex-direction: column;
-  width: 25rem;
-  height: auto;
-  padding: 35px;
+}
+
+.card img {
+  display: flex;
+  flex-direction: row;
+  max-width: 30rem;
+  max-height: 15rem;
+  padding: 2rem;
 }
 
 .carreiras-text {
   margin-top: 1.5rem;
 }
 
-.carreiras-text h2 {
+.card h2 {
   font-size: 22px;
   margin-bottom: 0.6rem;
   color: rgb(71, 71, 71);
+  text-align: center;
 }
 
-.carreiras-text p {
+.card p {
   font-size: 1.3rem;
   color: #333;
   text-align: justify;
@@ -409,12 +419,12 @@ section h2 {
     text-align: center;
   }
   
-  .image-card {
+  .card {
     width: 50%;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     height: auto;
-    margin: 0 0 5rem 0;
+    margin: 0 5rem;
   }
 
   .carreiras-text {
@@ -515,6 +525,7 @@ section h2 {
   .painel-image {
     width: 100%;
   }
+
   .carousel {
       flex-direction: column;
       align-items: center;
@@ -527,6 +538,10 @@ section h2 {
       font-size: 18px; 
   }
 
+  .carreiras-title {
+    padding: 2rem 5rem;
+  }
+  
   .carreiras-image {
     display: flex;
     justify-content: center;
@@ -534,12 +549,12 @@ section h2 {
     text-align: center;
   }
   
-  .image-card {
+  .card {
     width: 10%;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     height: auto;
-    margin: 0 0 0 0;
+    margin: 0 5rem;
   }
 
   .carreiras-text {
@@ -590,7 +605,7 @@ section h2 {
   }
 }
 
-@media (max-width: 1440px) {
+@media (min-width: 1024px) and (max-width: 1440px) {
   .site-header {
       padding-right: 5rem;
       width: auto;
@@ -652,12 +667,12 @@ section h2 {
     text-align: center;
   }
   
-  .image-card {
+  .card {
     width: 10%;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     height: auto;
-    margin: 0 10rem 3rem 0;
+    margin: 0 5rem 3rem;
   }
 
   .carreiras-text {
