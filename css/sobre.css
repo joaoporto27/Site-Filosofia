@@ -194,6 +194,7 @@ section h2 {
     height: 430px;
     margin: 0 auto;
     border: #333 solid;
+
 }
 
 .carousel{
@@ -260,15 +261,15 @@ section h2 {
 
 .participantes2 {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     flex-wrap: wrap;
-    padding: 50px;
-    gap: 50px; 
+    padding: 2%;
+    gap: 13%; 
 }
 
 .participante {
     width: 20%;
-    margin: 20px;
+    padding: 2rem;
     text-align: center;
     background-color: transparent;
     color: #fff;
