@@ -292,8 +292,14 @@ header {
     width: 20%;
     display: inline-block;
     text-align: center;
+    align-items: center;
     padding: 30px 0 20px 0;
     margin-left: 29%;
+    max-width: 23rem;
+    text-align: justify;
+    hyphens: auto;
+    word-spacing: 0.1em;
+    text-align-last: left;
 }
 
 .senai h3 {
@@ -309,7 +315,13 @@ header {
     display: inline-block;
     margin-left: 3%;
     text-align: center;
+    align-items: center;
     padding: 0 0 20px 0px;
+    max-width: 23rem;
+    text-align: justify;
+    hyphens: auto;
+    word-spacing: 0.1em;
+    text-align-last: left;
 }
 
 .sesi h3 {
