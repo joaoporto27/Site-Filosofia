@@ -1,21 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-
-
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 
 * {
     margin: 0%;
-    padding: 0%;
+    padding: 0;
     box-sizing: border-box;
 }
 
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     line-height: 1.5;
     background-color: #f0f2f5;
     color: #333;
 }
-
-
 
 header {
     background-color: #e30613;
@@ -36,7 +32,7 @@ header {
     justify-content: space-between;
     list-style: none;
     gap: 1.5rem;
-    margin-right: 4rem;  
+    margin-right: 4rem;
     text-decoration: none;
     color: #ffffff;
 }
@@ -50,7 +46,6 @@ header {
     cursor: pointer;
     transition: transform 0.3s ease;
 }
-
 
 .main-nav .nav-list {
     list-style: none;
@@ -115,30 +110,30 @@ header {
     z-index: 4;
     display: flex;
     flex-direction: column;
-  }
-  
-  .menu-mobile.abrir ul {
+}
+
+.menu-mobile.abrir ul {
     visibility: visible;
     height: calc(72vh - 7px);
-  }
-  
-  .menu-mobile ul li:hover {
+}
+
+.menu-mobile ul li:hover {
     background-color: #000000c4;
-  }
-  
-  .menu-mobile ul li {
+}
+
+.menu-mobile ul li {
     display: block;
     padding: 10px;
     font-size: 16px;
     text-align: center;
-  }
-  
-  .menu-mobile ul li a {
+}
+
+.menu-mobile ul li a {
     color: #ffffff;
     text-decoration: none;
-  }
-  
-  #btn-menu {
+}
+
+#btn-menu {
     width: 45px;
     height: 45px;
     border: 0px solid #ff0000;
@@ -148,9 +143,9 @@ header {
     right: 40px;
     top: 40px;
     cursor: pointer;
-  }
-  
-  .linha {
+}
+
+.linha {
     width: 40px;
     height: 3px;
     background-color: #ffffff;
@@ -158,27 +153,27 @@ header {
     margin: 10px auto;
     position: relative;
     transform-origin: center;
-    transition: .2s;
-  }
-  
-  #btn-menu.ativo .linha:nth-child(1) {
+    transition: 0.2s;
+}
+
+#btn-menu.ativo .linha:nth-child(1) {
     transform: translateY(12px) rotate(-45deg);
     background-color: #ffffff;
-  }
-  
-  #btn-menu.ativo .linha:nth-child(3) {
+}
+
+#btn-menu.ativo .linha:nth-child(3) {
     transform: translateY(-15px) rotate(45deg);
     background-color: #ffffff;
-  }
-  
-  #btn-menu.ativo .linha:nth-child(2) {
+}
+
+#btn-menu.ativo .linha:nth-child(2) {
     width: 0;
     height: 4px;
-  }
-  
-  #btn-menu.ativo {
+}
+
+#btn-menu.ativo {
     border: 0px solid #000000;
-  }
+}
 
 .painel {
     position: relative;
@@ -226,136 +221,120 @@ header {
 }
 
 .carousel-list:hover {
-	color: rgb(255, 255, 255);
-width: 14.5%;
-background: linear-gradient(178deg, #e30613 0%, rgb(92, 0, 0) 100%) ;
-border-color: #e30613;
-border-width: 0px;
-border-style: solid;
+    color: rgb(255, 255, 255);
+    width: 14.5%;
+    background: linear-gradient(178deg, #e30613 0%, rgb(92, 0, 0) 100%);
+    border-color: #e30613;
+    border-width: 0px;
+    border-style: solid;
 }
 
-.intro-content{
+.intro-content {
     display: flex;
-    flex-direction: column;
-    margin-left: 1rem;
-}
-
-
-.introducao {
-    display: flex;
-    align-items: center;
-    margin-bottom: 10px;
     flex-direction: row;
-    height: 400px;
-    margin-left: 10px;
-
-}
-
-.intro {
-    max-width: 60%;
-    margin-bottom: 20px;
-}
-
-.titulo {
-    white-space: nowrap;
-    font-size: 1.5rem;
-    
-}
-
-.text-intro {
-    display: flex;
-    flex-direction: column;
-    align-content: flex-end;
+    align-items: center;
+    gap: 5rem;
     justify-content: center;
-    height: 6rem;
+    margin-top: 2rem;
+    margin: 1rem;
+}
+
+.intro-content2 {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 5rem;
+    justify-content: center;
+    margin-top: 2rem;
+    margin: 1rem;
+}
+
+.img-main {
+    width: 15rem;
+    height: 15rem;
+    width: fit-content;
+    border-radius: 2.5rem;
+    filter: drop-shadow(0 0 1rem #000000);
+    box-shadow: 1px 1px 1rem #5e5e5e;
+}
+
+
+
+.text-content {
+    max-width: 80rem;
     text-align: justify;
     hyphens: auto;
     word-spacing: 0.1em;
     text-align-last: left;
 }
 
-.img-main {
-    border-radius: 50%;
-    width: 100%; 
-    height: 20%;
-}
-
-.first-text {
-    justify-content: space-between;
-    align-items: center;
-    display: flex;
-    
-}
-
-.main-content{
+.main-content {
     display: flex;
     justify-content: space-between;
     gap: 3rem;
 }
 
 .text-page {
-  font-size: 1rem;
+    font-size: 1rem;
 }
 
 .footer {
     background-color: #9a1915;
     color: white;
     margin-top: 50px;
-  }
-  
-  .footer .icones {
+}
+
+.footer .icones {
     background-color: #e30613;
-  }
-  
-  .senai {
+}
+
+.senai {
     width: 20%;
     display: inline-block;
     text-align: center;
     padding: 30px 0 20px 0;
     margin-left: 29%;
-  }
-  
-  .senai h3 {
+}
+
+.senai h3 {
     text-align: left;
-  }
-  
-  .senai p {
+}
+
+.senai p {
     text-align: left;
-  }
-  
-  .sesi {
+}
+
+.sesi {
     width: 20%;
     display: inline-block;
     margin-left: 3%;
     text-align: center;
     padding: 0 0 20px 0px;
-  }
-  
-  .sesi h3 {
+}
+
+.sesi h3 {
     text-align: left;
-  }
-  
-  .sesi p {
+}
+
+.sesi p {
     text-align: left;
-  }
-  
-  .footer .icons img {
+}
+
+.footer .icons img {
     display: inline-block;
     margin-left: 25px;
-  }
-  
-  .icons {
+}
+
+.icons {
     display: flex;
     align-items: center;
     justify-content: center;
-  }
-  
-  .footer-text {
+}
+
+.footer-text {
     background-color: #9a1915;
     color: white;
-  }
-
-
+}
 
 .text-page {
     color: #000000;
@@ -378,7 +357,8 @@ border-style: solid;
         height: auto;
     }
 
-    .image-header, .image-header2 {
+    .image-header,
+    .image-header2 {
         width: 40%;
         padding: 10px;
         margin-left: 0;
@@ -396,13 +376,13 @@ border-style: solid;
     }
 
     .nav-link {
-        padding: 10px; 
-        font-size: 1rem; 
+        padding: 10px;
+        font-size: 1rem;
     }
 
     .painel-text {
-        top: 100px; 
-        left: 20px; 
+        top: 100px;
+        left: 20px;
         font-size: 1.5rem;
         text-align: left;
     }
@@ -414,9 +394,9 @@ border-style: solid;
 
     .carousel-list {
         width: 100%;
-        margin: 10px; 
+        margin: 10px;
         justify-content: center;
-        font-size: 18px; 
+        font-size: 18px;
     }
 
     .introducao {
@@ -441,11 +421,11 @@ border-style: solid;
 
     .control-page {
         flex-direction: column;
-        gap: 1.5rem; 
+        gap: 1.5rem;
     }
 
     .icon-pages {
-        width: 100%; 
+        width: 100%;
         margin: 0.5rem 0;
     }
 
@@ -457,29 +437,32 @@ border-style: solid;
     .text-page {
         font-size: 1rem;
     }
+
     .senai,
     .sesi {
-        width: 100%; 
-        text-align: center; 
+        width: 100%;
+        text-align: center;
         margin-left: 0;
-        padding: 15px 0; 
+        padding: 15px 0;
     }
 
-    .senai h3, .sesi h3, .senai p, .sesi p {
-        text-align: center; 
+    .senai h3,
+    .sesi h3,
+    .senai p,
+    .sesi p {
+        text-align: center;
     }
 
     .footer .icons img {
-        width: 35px; 
+        width: 35px;
         height: 35px;
         margin-left: 10px;
     }
 
     .footer {
-        padding: 15px 0; 
+        padding: 15px 0;
     }
 }
-
 
 @media (max-width: 480px) {
     .site-header {
@@ -487,24 +470,25 @@ border-style: solid;
         height: auto;
         padding: 0.5rem;
         width: auto;
-        font-size: 1rem; 
+        font-size: 1rem;
     }
 
     .imagens {
         width: auto;
         justify-content: center;
         height: auto;
-        flex-direction: column; 
+        flex-direction: column;
     }
 
-    .image-header, .image-header2 {
-        width: 60%; 
+    .image-header,
+    .image-header2 {
+        width: 60%;
         padding: 5px;
         margin-left: 0;
     }
 
     .line-header {
-        display: none; 
+        display: none;
     }
 
     .nav-list {
@@ -515,8 +499,8 @@ border-style: solid;
     }
 
     .nav-link {
-        padding: 5px; 
-        font-size: 1rem; 
+        padding: 5px;
+        font-size: 1rem;
     }
 
     .painel-text {
@@ -524,7 +508,7 @@ border-style: solid;
         left: 10px;
         font-size: 1.2rem;
         text-align: left;
-        margin-bottom: 1rem; 
+        margin-bottom: 1rem;
     }
 
     .carousel {
@@ -534,49 +518,49 @@ border-style: solid;
 
     .carousel-list {
         width: 100%;
-        margin: 5px; 
+        margin: 5px;
         justify-content: center;
-        font-size: 16px; 
+        font-size: 16px;
     }
 
     .introducao {
         flex-direction: column;
         align-items: flex-start;
         height: auto;
-        margin: 0.5rem 0; 
+        margin: 0.5rem 0;
     }
 
     .intro-content {
         text-align: left;
         width: 100%;
-        margin-bottom: 1rem; 
+        margin-bottom: 1rem;
     }
 
     .img-main {
-        width: 80%; 
-        height: auto; 
+        width: 80%;
+        height: auto;
         margin-top: 1rem;
         justify-content: center;
         display: flex;
     }
 
-     .titulo {
+    .titulo {
         font-size: 1.2rem;
-        margin-bottom: 2rem; 
+        margin-bottom: 2rem;
     }
 
     .text-intro {
         font-size: 1rem;
-        margin-bottom: 2rem; 
+        margin-bottom: 2rem;
     }
 
     .carousel-list {
-        font-size: 1rem; 
+        font-size: 1rem;
     }
 
     .control-page {
         flex-direction: column;
-        gap: 1rem; 
+        gap: 1rem;
         align-items: center;
     }
 
@@ -586,15 +570,16 @@ border-style: solid;
     }
 
     .icon-pages img {
-        width: 3.5rem; 
+        width: 3.5rem;
         height: 3.5rem;
     }
 
     .text-page {
-        font-size: 1rem; 
+        font-size: 1rem;
     }
+
     .footer .icons img {
-        width: 30px; 
+        width: 30px;
         height: 30px;
         margin-left: 5px;
     }
@@ -606,10 +591,13 @@ border-style: solid;
     .senai,
     .sesi {
         width: 100%;
-        padding: 10px 0; 
+        padding: 10px 0;
     }
 
-    .senai h3, .sesi h3, .senai p, .sesi p {
-        font-size: 1rem; 
+    .senai h3,
+    .sesi h3,
+    .senai p,
+    .sesi p {
+        font-size: 1rem;
     }
 }
