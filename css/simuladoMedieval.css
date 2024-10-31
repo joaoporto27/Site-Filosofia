@@ -1,0 +1,381 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+    background-color: #f0f2f5;
+    color: #333;
+}
+
+
+
+header {
+    background-color: #e30613;
+    color: #ffffff;
+    padding: 1rem 0;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    height: 8.125rem;
+}
+
+.nav-link {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 1.5rem;
+    margin-right: 4rem;  
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.nav-link a {
+    display: flex;
+    color: #ffffff;
+    font-size: 1.3rem;
+    border-bottom: 3px solid transparent;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+
+.main-nav .nav-list {
+    list-style: none;
+    margin: 0 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.imagens {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+}
+
+.image-header {
+    width: 24%;
+    height: 5%;
+    align-items: center;
+    display: flex;
+    padding: 20px;
+    margin-left: 5px;
+}
+
+.image-header2 {
+    width: 19.7%;
+    height: 5%;
+    align-items: center;
+    display: flex;
+    padding: 20px;
+    margin-left: 5px;
+}
+
+.line-header {
+    height: 50px;
+    width: 3px;
+    background-color: #ffffff;
+    margin: 0 20px;
+    margin-right: 20px;
+}
+
+.menu-mobile ul {
+    background-color: #ff0000;
+    backdrop-filter: blur(10px);
+    position: absolute;
+    top: 95px;
+    right: 0;
+    width: 405px;
+    height: 0;
+    visibility: hidden;
+    transition: 0.5s;
+    overflow: hidden;
+    margin-right: 0;
+    z-index: 4;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .menu-mobile.abrir ul {
+    visibility: visible;
+    height: calc(72vh - 7px);
+  }
+  
+  .menu-mobile ul li:hover {
+    background-color: #000000c4;
+  }
+  
+  .menu-mobile ul li {
+    display: block;
+    padding: 10px;
+    font-size: 16px;
+    text-align: center;
+  }
+  
+  .menu-mobile ul li a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  #btn-menu {
+    width: 45px;
+    height: 45px;
+    border: 0px solid #ff0000;
+    background: transparent;
+    border-radius: 10px;
+    position: absolute;
+    right: 40px;
+    top: 40px;
+    cursor: pointer;
+  }
+  
+  .linha {
+    width: 40px;
+    height: 3px;
+    background-color: #ffffff;
+    display: block;
+    margin: 10px auto;
+    position: relative;
+    transform-origin: center;
+    transition: .2s;
+  }
+  
+  #btn-menu.ativo .linha:nth-child(1) {
+    transform: translateY(12px) rotate(-45deg);
+    background-color: #ffffff;
+  }
+  
+  #btn-menu.ativo .linha:nth-child(3) {
+    transform: translateY(-15px) rotate(45deg);
+    background-color: #ffffff;
+  }
+  
+  #btn-menu.ativo .linha:nth-child(2) {
+    width: 0;
+    height: 4px;
+  }
+  
+  #btn-menu.ativo {
+    border: 0px solid #000000;
+  }
+
+.painel {
+    position: relative;
+}
+
+.painel-image {
+    position: relative;
+    width: 100%;
+    filter: brightness(50%);
+}
+
+.painel-text {
+    position: absolute;
+    color: aliceblue;
+    top: 170px;
+    left: 50px;
+    font-size: 2.5rem;
+}
+
+.carousel {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.carousel-list{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    margin-top: 15px;
+    background-color: #cacaca;
+    margin: 2px;
+    border-radius: 30px;
+    text-decoration: none;
+    color: #000000;
+    align-items: center;
+}
+
+.carousel-list:hover a{
+    background-color: #e30613;
+    color: #ffffff;
+}
+
+.container {
+    display: flex;
+    max-width: 75rem;
+    margin: auto;
+    flex-direction: column;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 3rem;
+}
+
+.banner-site {
+    background-image: linear-gradient(to Left, rgba(0, 0, 0, 0.848), rgba(0, 0, 0, 0.634)), url('../img/banner-simulado.jpg');
+}
+
+.container-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;   
+    margin: 4rem 0;
+    align-items: center;
+}
+
+.hr-left {
+    background-color: #9a1915;
+    height: 4px;
+    width: 250px;
+    border-radius: 10px;
+}
+
+.hr-right {
+    background-color: #9a1915;
+    height: 4px;
+    width: 250px;
+    border-radius: 10px;
+}
+
+.container-title h1 {
+    font-size: 2rem;
+    font-weight: 900;
+    color: #9a1915;
+}
+
+.option {
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.option.correct {
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+}
+
+.option.wrong {
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+}
+
+.divisor-section {
+    margin-top: 1rem;
+    margin-bottom: 1rem; 
+}
+
+hr.divisor {
+    width: 22rem; 
+    border: 0; 
+    height: 4px;
+    background-color: #9A1915; 
+    margin: 0;  
+}
+
+button {
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    background-color: #D71920;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #9A1915;
+}
+
+.footer {
+    background-color: #9a1915;
+    color: white;
+    margin-top: 50px;
+  }
+  
+  .footer .icones {
+    background-color: #e30613;
+  }
+  
+  .senai {
+    width: 20%;
+    display: inline-block;
+    text-align: center;
+    padding: 30px 0 20px 0;
+    margin-left: 29%;
+  }
+  
+  .senai h3 {
+    text-align: left;
+  }
+  
+  .senai p {
+    text-align: left;
+  }
+  
+  .sesi {
+    width: 20%;
+    display: inline-block;
+    margin-left: 3%;
+    text-align: center;
+    padding: 0 0 20px 0px;
+  }
+  
+  .sesi h3 {
+    text-align: left;
+  }
+  
+  .sesi p {
+    text-align: left;
+  }
+  
+  .footer .icons img {
+    display: inline-block;
+    margin-left: 25px;
+  }
+  
+  .icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .footer-text {
+    background-color: #9a1915;
+    color: white;
+  }
+
+
+
+.text-page {
+    color: #000000;
+    font-size: 1.3rem;
+    text-align: center;
+}

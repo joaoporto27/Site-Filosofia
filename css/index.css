@@ -256,7 +256,11 @@ header {
     flex-direction: column;
     align-content: flex-end;
     justify-content: center;
-    height: 150px;
+    height: 6rem;
+    text-align: justify;
+    hyphens: auto;
+    word-spacing: 0.1em;
+    text-align-last: left;
 }
 
 .img-main {
@@ -276,6 +280,10 @@ header {
     display: flex;
     justify-content: space-between;
     gap: 3rem;
+}
+
+.text-page {
+  font-size: 1rem;
 }
 
 .footer {
