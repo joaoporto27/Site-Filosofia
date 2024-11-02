@@ -14,9 +14,8 @@ body {
 }
 
 header {
-    background-color: #e30613;
-    color: #ffffff;
-    padding: 1rem 0;
+    background-color: rgb(227, 6, 19);
+    color: rgb(255, 255, 255);
     text-align: center;
     display: flex;
     align-items: center;
@@ -32,7 +31,7 @@ header {
     justify-content: space-between;
     list-style: none;
     gap: 1.5rem;
-    margin-right: 4rem;
+    margin-right: rem;
     text-decoration: none;
     color: #ffffff;
 }
