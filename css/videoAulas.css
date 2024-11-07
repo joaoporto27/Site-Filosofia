@@ -296,6 +296,8 @@ header {
   word-spacing: 0.1em;
   text-align-last: left;
   flex-direction: column;
+  gap: 0.5rem;
+  line-height: 1.75rem;
 }
 
 
@@ -304,6 +306,11 @@ header {
     align-items: center;
     justify-content: center;
     font-size: 2rem;
+}
+.line03 {
+    height: 16rem;
+    width: 0.25rem;
+    background-color: #000000;
 }
 
 .video {
