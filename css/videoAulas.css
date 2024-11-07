@@ -182,7 +182,7 @@ header {
     position: relative;
     width: 100%;
     filter: brightness(50%);
-    height: 41rem;
+    height: 40.5rem;
 }
 
 .painel-text {
@@ -227,4 +227,54 @@ header {
     border-color: #e30613;
     border-width: 0px;
     border-style: solid;
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+}
+
+.introduction {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 0.5rem;
+}
+
+.text-title {
+    font-size: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.line01 {
+    background-color: #fa0000;
+    width: 30%;
+    height: 0.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.line02 {
+    background-color: #fa0000;
+    width: 50%;
+    height: 0.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-introduction {
+    font-size: 1rem;
+    text-align: justify;
+    max-width: 80rem;
+    hyphens: auto;
+    word-spacing: 0.1em;
+    text-align-last: left;
+    display: flex;
 }
