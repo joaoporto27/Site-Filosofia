@@ -16,7 +16,6 @@ body {
 header {
   background-color: #e30613;
   color: #ffffff;
-  padding: 1rem 0;
   text-align: center;
   display: flex;
   align-items: center;
@@ -32,7 +31,6 @@ header {
   justify-content: space-between;
   list-style: none;
   gap: 1.5rem;
-  margin-right: 4rem;  
   text-decoration: none;
   color: #ffffff;
 }
@@ -60,7 +58,6 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 100%;
 }
 
 .imagens {
@@ -95,7 +92,6 @@ header {
   margin-right: 20px;
 }
 
-/* menu mobile */
 .menu-mobile ul {
   background-color: #ff0000;
   backdrop-filter: blur(10px);

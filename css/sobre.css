@@ -34,7 +34,6 @@ body {
     justify-content: space-between;
     list-style: none;
     gap: 1.5rem;
-    margin-right: 4rem;  
     text-decoration: none;
     color: #ffffff;
 }
@@ -62,8 +61,7 @@ body {
 .nav-list {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    width: 100%;
+    align-items: center;    
 }
 
 .imagens {

@@ -31,7 +31,6 @@ header {
     justify-content: space-between;
     list-style: none;
     gap: 1.5rem;
-    margin-right: rem;
     text-decoration: none;
     color: #ffffff;
 }
@@ -59,7 +58,6 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
 }
 
 .imagens {
