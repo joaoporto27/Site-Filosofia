@@ -280,3 +280,7 @@ a{
     align-items: center;
     justify-content: center;
 }
+
+b{
+    font-size: 1.2rem;
+}
