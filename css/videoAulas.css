@@ -253,7 +253,7 @@ header {
 }
 
 .line01 {
-  background-color: #fa0000;
+  background-color: #9a1915;
   width: 30%;
   height: 0.25rem;
   display: flex;
@@ -261,14 +261,6 @@ header {
   justify-content: center;
 }
 
-.line02 {
-  background-color: #fa0000;
-  width: 50%;
-  height: 0.25rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
 
 .text-introduction {
   font-size: 1rem;
@@ -310,9 +302,9 @@ header {
 .line03 {
     height: 16rem;
     width: 0.25rem;
-    background-color: #000000;
+    background-color: #9a1915;
 }
 
 .video {
-  border: 11px inset #720000;
+  border: 11px inset #9a1915;
 }
