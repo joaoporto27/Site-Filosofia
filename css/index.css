@@ -253,9 +253,8 @@ header {
     border-radius: 2.5rem;
     filter: drop-shadow(0 0 1rem #000000);
     box-shadow: 1px 1px 1rem #5e5e5e;
+    margin-top: 3rem;
 }
-
-
 
 .text-content {
     max-width: 80rem;
@@ -263,7 +262,19 @@ header {
     hyphens: auto;
     word-spacing: 0.1em;
     text-align-last: left;
+    margin-left: 2.5rem;
+    margin-top: 2.5rem;
 }
+
+.text-content2 {
+    max-width: 80rem;
+    text-align: justify;
+    hyphens: auto;
+    word-spacing: 0.1em;
+    text-align-last: left;
+    margin-left: 2.5rem;
+}
+
 
 .main-content {
     display: flex;
