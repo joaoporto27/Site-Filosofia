@@ -249,3 +249,32 @@ header {
 .list-news {
     text-align: start;
 }
+
+.philosophers-image img {
+    width: 10rem;
+    height: 15rem;
+}
+
+.philosophers-image {
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.image-solo {
+    border-radius: 2rem;
+}
+
+.socrates {
+    text-align: center;
+}
+
+.aristoteles {
+    text-align: center;
+}
+
+.platao {
+    text-align: center;
+}
