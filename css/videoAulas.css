@@ -230,8 +230,8 @@ header {
 }
 
 .main-content {
-  display: flex;
-  justify-content: space-between;
+  display: flex;  
+  justify-content: space-between; 
   flex-direction: column;
   gap: 3rem;
 }
@@ -279,6 +279,11 @@ header {
   justify-content: space-evenly;
 }
 
+.video-container {
+  display: flex;
+  width: 40rem;
+}
+
 .text-container {
   display: flex;
   font-size: 1rem;
@@ -303,6 +308,7 @@ header {
     height: 16rem;
     width: 0.25rem;
     background-color: #9a1915;
+    display: flex;
 }
 
 .video {
@@ -314,7 +320,87 @@ header {
   flex-direction: row-reverse;
   align-items: center;
   justify-content: space-evenly;
-  margin-right: 2rem;
 }
 
+.video-content3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
 
+.footer {
+  background-color: #9a1915;
+  color: white;
+  margin-top: 50px;
+}
+
+.footer .icones {
+  background-color: #e30613;
+}
+
+.senai {
+  width: 20%;
+  display: inline-block;
+  text-align: center;
+  align-items: center;
+  padding: 30px 0 20px 0;
+  margin-left: 29%;
+  max-width: 23rem;
+  text-align: justify;
+  hyphens: auto;
+  word-spacing: 0.1em;
+  text-align-last: left;
+}
+
+.senai h3 {
+  text-align: left;
+}
+
+.senai p {
+  text-align: left;
+}
+
+.sesi {
+  width: 20%;
+  display: inline-block;
+  margin-left: 3%;
+  text-align: center;
+  align-items: center;
+  padding: 0 0 20px 0px;
+  max-width: 23rem;
+  text-align: justify;
+  hyphens: auto;
+  word-spacing: 0.1em;
+  text-align-last: left;
+}
+
+.sesi h3 {
+  text-align: left;
+}
+
+.sesi p {
+  text-align: left;
+}
+
+.footer .icons img {
+  display: inline-block;
+  margin-left: 25px;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-text {
+  background-color: #9a1915;
+  color: white;
+}
+
+.text-page {
+  color: #000000;
+  font-size: 1.3rem;
+  text-align: center;
+}
