@@ -252,6 +252,10 @@ b{
     background: rgb(255, 255, 255);
 }
 
+.image-noticia {
+    max-width: 250px;
+    max-height: 200px;
+}
 
 .card-list .card-item .image-noticia {
     margin-top: 1rem;
