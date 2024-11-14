@@ -308,3 +308,13 @@ header {
 .video {
   border: 11px inset #9a1915;
 }
+
+.video-content2 {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-right: 2rem;
+}
+
+
