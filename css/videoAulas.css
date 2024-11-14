@@ -314,7 +314,20 @@ header {
   flex-direction: row-reverse;
   align-items: center;
   justify-content: space-evenly;
-  margin-right: 2rem;
+}
+
+.video-container2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.video-content3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
 
