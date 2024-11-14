@@ -227,13 +227,25 @@ header {
     font-size: 3rem;
 }
 
-section {
+.news-content {
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
 } 
 
 .news-text {
     text-align: justify;
     max-width: 60rem;
     font-size: 1.2rem;
+}
+
+.subtitle-news {
+    color: #e30613;
+    font-size: 1.4rem;
+}
+
+.list-news {
+    text-align: start;
 }
