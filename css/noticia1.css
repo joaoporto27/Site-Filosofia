@@ -220,4 +220,20 @@ header {
     border-width: 0px;
     border-style: solid;
   }
-  
+
+.news-title {
+    margin: 3rem;
+    text-align: center;
+    font-size: 3rem;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+} 
+
+.news-text {
+    text-align: justify;
+    max-width: 60rem;
+    font-size: 1.2rem;
+}
