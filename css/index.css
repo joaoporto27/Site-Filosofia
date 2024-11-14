@@ -368,7 +368,7 @@ header {
         flex-direction: column;
         height: auto;
         padding: 1rem;
-        width: auto;
+        width: 100%;
         font-size: 1rem;
     }
 
@@ -401,6 +401,14 @@ header {
         font-size: 1rem;
     }
 
+    .painel img {
+        width: 100%;
+    }
+
+    .painel-image img {
+        width: 100%;
+    }
+
     .painel-text {
         top: 100px;
         left: 20px;
@@ -421,20 +429,50 @@ header {
     }
 
     .introducao {
+        display: flex;
         flex-direction: column;
         align-items: flex-start;
         height: auto;
+        width: 100%;
+        padding: 5rem;
     }
 
     .intro-content {
-        text-align: left;
+        display: flex;
+        flex-direction: column;
+        text-align:flex-start;
         width: 100%;
         margin: 0;
     }
 
+    .intro-content2 {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+        margin: 0;
+    }
+
+    .titulo {
+        margin-top: 3rem;
+    }
+
+    .text-intro{
+        font-size: 1.2rem;
+    }
+
+
     .img-main {
         width: 100%;
         height: 70%;
+        margin-top: 1rem;
+        justify-content: center;
+        display: flex;
+    }
+    
+    .img-main img {
+        width: 60%;
+        height: 60%;
         margin-top: 1rem;
         justify-content: center;
         display: flex;
@@ -445,9 +483,16 @@ header {
         gap: 1.5rem;
     }
 
+    .icons {
+        display: flex;
+        flex-direction: row;
+    }
+
     .icon-pages {
-        width: 100%;
-        margin: 0.5rem 0;
+        width: 10rem;
+        height: 10rem;
+        display: flex;
+        flex-direction: row;
     }
 
     .icon-pages img {
@@ -467,21 +512,24 @@ header {
         padding: 15px 0;
     }
 
+    .enderecos {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+
     .senai h3,
     .sesi h3,
     .senai p,
     .sesi p {
-        text-align: center;
+        text-align:start;
+        display: flex;
+        flex-direction: column;
     }
 
     .footer .icons img {
-        width: 35px;
-        height: 35px;
-        margin-left: 10px;
-    }
-
-    .footer {
-        padding: 15px 0;
+        width: 5rem;
+        height: 5rem;
     }
 }
 
