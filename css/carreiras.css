@@ -93,41 +93,83 @@ header {
 }
 
 .menu-mobile ul {
-  background-color: #ff0000;
+  background-color: #e30613;
   backdrop-filter: blur(10px);
   position: absolute;
-  top: 95px;
+  top: 82px;
   right: 0;
   width: 405px;
-  height: 0;
+  max-height: 0;
+  transition: max-height 1s ease, visibility 1s ease;
   visibility: hidden;
-  transition: 0.5s;
   overflow: hidden;
   margin-right: 0;
   z-index: 4;
-  display: flex;
+  display: inline;
   flex-direction: column;
+  gap: 0.5rem;
 }
 
 .menu-mobile.abrir ul {
   visibility: visible;
-  height: calc(72vh - 7px);
+  max-height: 35.25rem;
 }
 
 .menu-mobile ul li:hover {
   background-color: #000000c4;
 }
 
+.menu-mobile ul .menu-title:hover {
+  background-color: #e30613;
+}
+
 .menu-mobile ul li {
-  display: block;
-  padding: 10px;
+  display: flex;
+  padding: 10px 30px;
   font-size: 16px;
   text-align: center;
+  justify-content: center;
+}
+
+.menu-mobile ul .filosofia{
+  width: 30rem;
+  display: flex;
+  justify-content: left;
+  flex-direction: row;
+}
+
+.menu-mobile ul li div{
+  width: 20.7rem;
+  display: block;
+}
+
+.menu-mobile ul .filosofia div{
+  width: 20.7rem;
+  display: block;
+  border-bottom: 0 solid #ffffff;
 }
 
 .menu-mobile ul li a {
-  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  justify-content: left;
+  color: var(--color-fonteBranca);
   text-decoration: none;
+  border-bottom: 0.3px solid #ffffff;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.menu-mobile ul li div h1 {
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
+  font-weight: 300;
+  border-bottom: 1px solid #ffffff;
+}
+
+.menu-mobile ul li .materias{
+  width: 12rem;
 }
 
 #btn-menu {
@@ -136,9 +178,8 @@ header {
   border: 0px solid #ff0000;
   background: transparent;
   border-radius: 10px;
-  position: absolute;
-  right: 40px;
-  top: 40px;
+  right: 30px;
+  top: 20px;
   cursor: pointer;
 }
 
@@ -146,7 +187,7 @@ header {
   width: 40px;
   height: 3px;
   background-color: #ffffff;
-  display: block;
+  display: flex;
   margin: 10px auto;
   position: relative;
   transform-origin: center;
@@ -165,10 +206,90 @@ header {
 
 #btn-menu.ativo .linha:nth-child(2) {
   width: 0;
-  height: 4px;
 }
-#btn-menu.ativo {
-  border: 0px solid #000000;
+
+#menu-materias {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.arrow{
+  width: 1rem;
+  height: 1rem;
+  z-index: 10;
+  transform: rotate(90deg);
+  transition: .3s;
+}
+
+.btn-menu2:hover{
+  background-color: #000;
+}
+
+#btn-menu2.ativado .arrow{
+  transform: rotate(0deg) ;
+}
+
+#btn-menu2 {
+  height: 10px;
+  border: 0px solid #ff0000;
+  background: transparent;
+  border-radius: 10px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+}
+
+#menu-menu ul {
+  position: absolute;
+  right: 0;
+  top: 40.34rem;
+  background-color: #e30613;
+  z-index: 5;
+  width: 405px;
+  max-height: 0;
+  transition: max-height 0.5s ease, visibility 1s ease;
+  display: flex;
+  flex-direction: column;
+  visibility: hidden;
+  overflow: hidden;
+  list-style: none;
+  justify-content: left;
+  gap: 0.5rem;
+}
+
+.menu-menu ul li {
+  display: block;
+  padding: 6px ;
+  font-size: 1rem;
+}
+
+.menu-menu ul li div{
+  display: block;
+  width: 22rem;
+}
+
+.menu-menu ul li a {
+  font-family: "Montserrat", sans-serif;
+  display: flex;
+  justify-content: left;
+  color: var(--color-fonteBranca);
+  text-decoration: none;
+  border-bottom: 1px solid #ffffff;
+  font-weight: 600;
+}
+
+#menu-menu a {
+  margin-left: 2.5rem;
+  text-decoration: none;
+  color: #e0e0e0;
+  border-bottom: 1px solid #ffffff;
+  font-size: 0.9rem;
+}
+
+#menu-menu.aberto ul {
+  visibility: visible;
+  max-height: 30.25rem;
 }
 /* fim menu mobile */
 
