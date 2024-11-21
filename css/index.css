@@ -654,16 +654,17 @@ header {
 }
 
 @media (max-width: 480px) {
-    .site-header {
+    header {
         flex-direction: column;
         height: auto;
-        padding: 0.5rem;
-        width: auto;
+        width: 100%;
         font-size: 1rem;
+        align-items: center;
+        justify-content: center;
     }
 
     .imagens {
-        width: auto;
+        width: 100%;
         justify-content: center;
         height: auto;
         flex-direction: column;
@@ -672,24 +673,37 @@ header {
     .image-header,
     .image-header2 {
         width: 60%;
-        padding: 5px;
-        margin-left: 0;
     }
 
     .line-header {
         display: none;
     }
 
+    .main-nav {
+        width: 100%;
+        display: flex;
+        font-size: 1rem;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
     .nav-list {
         width: 100%;
+        font-size: 1rem;
+        display: flex;
+        justify-content: center;
         flex-direction: column;
-        text-align: center;
-        margin: 0;
+        align-items: center;
     }
 
     .nav-link {
-        padding: 5px;
+        width: 100%;
         font-size: 1rem;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
     }
 
     .painel-text {
@@ -726,7 +740,7 @@ header {
     }
 
     .img-main {
-        width: 80%;
+        width: 17rem;
         height: auto;
         margin-top: 1rem;
         justify-content: center;
@@ -735,12 +749,12 @@ header {
 
     .titulo {
         font-size: 1.2rem;
-        margin-bottom: 2rem;
+        white-space: nowrap;
     }
 
     .text-intro {
         font-size: 1rem;
-        margin-bottom: 2rem;
+        margin-right: 0.5rem;
     }
 
     .carousel-list {
@@ -765,6 +779,15 @@ header {
 
     .text-page {
         font-size: 1rem;
+    }
+
+    .enderecos{
+        max-width: 100%;
+        text-align: justify;
+        hyphens: auto;
+        word-spacing: 0.1em;
+        text-align-last: left;
+        flex-direction: column;
     }
 
     .footer .icons img {
