@@ -1,12 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 
-
 * {
     margin: 0%;
     padding: 0;
     box-sizing: border-box;
 }
-
 
 body {
     font-family: "Montserrat", sans-serif;
@@ -14,7 +12,6 @@ body {
     background-color: #f0f2f5;
     color: #333;
 }
-
 
 header {
     background-color: rgb(227, 6, 19);
@@ -27,7 +24,6 @@ header {
     height: 8.125rem;
 }
 
-
 .nav-link {
     font-family: "Montserrat", sans-serif;
     font-weight: bold;
@@ -39,7 +35,6 @@ header {
     color: #ffffff;
 }
 
-
 .nav-link a {
     display: flex;
     color: #ffffff;
@@ -50,7 +45,6 @@ header {
     transition: transform 0.3s ease;
 }
 
-
 .main-nav .nav-list {
     list-style: none;
     margin: 0 3rem;
@@ -60,20 +54,17 @@ header {
     padding: 0 1rem;
 }
 
-
 .nav-list {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-
 .imagens {
     width: 50%;
     display: flex;
     flex-direction: row;
 }
-
 
 .image-header {
     width: 24%;
@@ -93,7 +84,6 @@ header {
     margin-left: 5px;
 }
 
-
 .line-header {
     height: 50px;
     width: 3px;
@@ -101,7 +91,6 @@ header {
     margin: 0 20px;
     margin-right: 20px;
 }
-
 
 .menu-mobile ul {
     background-color: #e30613;
@@ -303,18 +292,15 @@ header {
     max-height: 30.25rem;
   }
 
-
 .painel {
     position: relative;
 }
-
 
 .painel-image {
     position: relative;
     width: 100%;
     filter: brightness(50%);
 }
-
 
 .painel-text {
     position: absolute;
@@ -324,14 +310,12 @@ header {
     font-size: 2.5rem;
 }
 
-
 .carousel {
     width: 100%;
     display: flex;
     justify-content: space-between;
     padding: 0.5rem;
 }
-
 
 .carousel-list {
     cursor: pointer;
@@ -353,7 +337,6 @@ header {
     --hover-borderSize: 0px;
 }
 
-
 .carousel-list:hover {
     color: rgb(255, 255, 255);
     width: 14.5%;
@@ -363,3 +346,65 @@ header {
     border-style: solid;
 }
 
+main {
+    margin: 0 5rem;
+}
+
+
+
+
+.text1-main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
+
+
+h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+    font-weight: bold;
+    margin-top: 3.5rem;
+}
+
+
+.texto1 {
+    width: 40%;
+    flex: 1;
+    margin-bottom: 2rem;
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+
+.img-lado {
+    width: 15%;
+    height: auto;
+    object-fit: cover;
+    margin: 0 3rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+.texto2, .caverna, .texto3 {
+    width: 100%;
+    margin-top: 10px;
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+
+.caverna {
+    width: 50%;
+    margin: 0 auto;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
