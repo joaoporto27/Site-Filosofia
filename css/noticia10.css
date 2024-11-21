@@ -1,21 +1,23 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
 
 * {
     margin: 0%;
-    padding: 0;
+    padding: 0%;
     box-sizing: border-box;
 }
 
 body {
-    font-family: "Montserrat", sans-serif;
+    font-family: 'Montserrat', sans-serif;
     line-height: 1.5;
     background-color: #f0f2f5;
     color: #333;
 }
 
 header {
-    background-color: rgb(227, 6, 19);
-    color: rgb(255, 255, 255);
+    background-color: #e30613;
+    color: #ffffff;
     text-align: center;
     display: flex;
     align-items: center;
@@ -44,6 +46,7 @@ header {
     cursor: pointer;
     transition: transform 0.3s ease;
 }
+
 
 .main-nav .nav-list {
     list-style: none;
@@ -109,20 +112,20 @@ header {
     flex-direction: column;
     gap: 0.5rem;
   }
- 
+  
   .menu-mobile.abrir ul {
     visibility: visible;
     max-height: 35.25rem;
   }
- 
+  
   .menu-mobile ul li:hover {
     background-color: #000000c4;
   }
- 
+  
   .menu-mobile ul .menu-title:hover {
     background-color: #e30613;
   }
- 
+  
   .menu-mobile ul li {
     display: flex;
     padding: 10px 30px;
@@ -130,25 +133,25 @@ header {
     text-align: center;
     justify-content: center;
   }
- 
+  
   .menu-mobile ul .filosofia{
     width: 30rem;
     display: flex;
     justify-content: left;
     flex-direction: row;
   }
- 
+  
   .menu-mobile ul li div{
     width: 20.7rem;
     display: block;
   }
- 
+  
   .menu-mobile ul .filosofia div{
     width: 20.7rem;
     display: block;
     border-bottom: 0 solid #ffffff;
   }
- 
+  
   .menu-mobile ul li a {
     font-family: "Montserrat", sans-serif;
     display: flex;
@@ -159,7 +162,7 @@ header {
     font-weight: bold;
     font-size: 1rem;
   }
- 
+  
   .menu-mobile ul li div h1 {
     color: #ffffff;
     font-family: "Montserrat", sans-serif;
@@ -167,11 +170,11 @@ header {
     font-weight: 300;
     border-bottom: 1px solid #ffffff;
   }
- 
+  
   .menu-mobile ul li .materias{
     width: 12rem;
   }
- 
+  
   #btn-menu {
     width: 45px;
     height: 45px;
@@ -182,7 +185,7 @@ header {
     top: 20px;
     cursor: pointer;
   }
- 
+  
   .linha {
     width: 40px;
     height: 3px;
@@ -193,27 +196,27 @@ header {
     transform-origin: center;
     transition: 0.2s;
   }
- 
+  
   #btn-menu.ativo .linha:nth-child(1) {
     transform: translateY(12px) rotate(-45deg);
     background-color: #ffffff;
   }
- 
+  
   #btn-menu.ativo .linha:nth-child(3) {
     transform: translateY(-15px) rotate(45deg);
     background-color: #ffffff;
   }
- 
+  
   #btn-menu.ativo .linha:nth-child(2) {
     width: 0;
   }
- 
+  
   #menu-materias {
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
- 
+  
   .arrow{
     width: 1rem;
     height: 1rem;
@@ -221,15 +224,15 @@ header {
     transform: rotate(90deg);
     transition: .3s;
   }
- 
+  
   .btn-menu2:hover{
     background-color: #000;
   }
- 
+  
   #btn-menu2.ativado .arrow{
     transform: rotate(0deg) ;
   }
- 
+  
   #btn-menu2 {
     height: 10px;
     border: 0px solid #ff0000;
@@ -239,7 +242,7 @@ header {
     display: flex;
     flex-direction: row;
   }
- 
+  
   #menu-menu ul {
     position: absolute;
     right: 0;
@@ -257,18 +260,18 @@ header {
     justify-content: left;
     gap: 0.5rem;
   }
- 
+  
   .menu-menu ul li {
     display: block;
     padding: 6px ;
     font-size: 1rem;
   }
- 
+  
   .menu-menu ul li div{
     display: block;
     width: 22rem;
   }
- 
+  
   .menu-menu ul li a {
     font-family: "Montserrat", sans-serif;
     display: flex;
@@ -278,7 +281,7 @@ header {
     border-bottom: 1px solid #ffffff;
     font-weight: 600;
   }
- 
+  
   #menu-menu a {
     margin-left: 2.5rem;
     text-decoration: none;
@@ -286,7 +289,7 @@ header {
     border-bottom: 1px solid #ffffff;
     font-size: 0.9rem;
   }
- 
+  
   #menu-menu.aberto ul {
     visibility: visible;
     max-height: 30.25rem;
@@ -300,7 +303,6 @@ header {
     position: relative;
     width: 100%;
     filter: brightness(50%);
-    height: 40rem;
 }
 
 .painel-text {
@@ -331,11 +333,6 @@ header {
     text-decoration: none;
     text-align: center;
     background: linear-gradient(178deg, #e30613 0%, rgb(92, 0, 0) 100%);
-    --hover-bgc: #eb0606;
-    --hover-color: #ffffff;
-    --hover-borderc: #fa0000;
-    --hover-width: 323px;
-    --hover-borderSize: 0px;
 }
 
 .carousel-list:hover {
@@ -346,120 +343,3 @@ header {
     border-width: 0px;
     border-style: solid;
 }
-
-main {
-    margin: 0 5rem;
-}
-
-.text1-main {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
-    flex-wrap: wrap;
-    margin-top: 2rem;
-}
-
-
-h1 {
-    text-align: center;
-    font-size: 2.5rem;
-    margin-bottom: 3rem;
-    font-weight: bold;
-    margin-top: 3.5rem;
-}
-
-.texto1 {
-    width: 40%;
-    flex: 1;
-    margin-bottom: 2rem;
-    font-size: 1.2rem;
-    line-height: 1.6;
-}
-
-
-.img-lado {
-    width: 15%;
-    height: auto;
-    object-fit: cover;
-    margin: 0 3rem;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
-
-
-.texto2, .caverna, .texto3 {
-    width: 100%;
-    margin-top: 10px;
-    font-size: 1.2rem;
-    line-height: 1.6;
-}
-
-
-.caverna {
-    width: 50%;
-    margin: 0 auto;
-    height: auto;
-    object-fit: cover;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
-
-.footer {
-    background-color: #9a1915;
-    color: white;
-    margin-top: 50px;
-  }
-  
-  .footer .icones {
-    background-color: #e30613;
-  }
-  
-  .senai {
-    width: 20%;
-    display: inline-block;
-    text-align: center;
-    padding: 30px 0 20px 0;
-    margin-left: 29%;
-  }
-  
-  .senai h3 {
-    text-align: left;
-  }
-  
-  .senai p {
-    text-align: left;
-  }
-  
-  .sesi {
-    width: 20%;
-    display: inline-block;
-    margin-left: 3%;
-    text-align: center;
-    padding: 0 0 20px 0px;
-  }
-  
-  .sesi h3 {
-    text-align: left;
-  }
-  
-  .sesi p {
-    text-align: left;
-  }
-  
-  .footer .icons img {
-    display: inline-block;
-    margin-left: 25px;
-  }
-  
-  .icons {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .footer-text {
-    background-color: #9a1915;
-    color: white;
-  }
