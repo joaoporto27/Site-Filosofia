@@ -300,6 +300,7 @@ header {
     position: relative;
     width: 100%;
     filter: brightness(50%);
+    height: 40rem;
 }
 
 .painel-text {
@@ -350,9 +351,6 @@ main {
     margin: 0 5rem;
 }
 
-
-
-
 .text1-main {
     display: flex;
     flex-direction: row;
@@ -371,7 +369,6 @@ h1 {
     font-weight: bold;
     margin-top: 3.5rem;
 }
-
 
 .texto1 {
     width: 40%;
