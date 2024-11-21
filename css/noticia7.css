@@ -405,3 +405,61 @@ h1 {
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
+
+.footer {
+    background-color: #9a1915;
+    color: white;
+    margin-top: 50px;
+  }
+  
+  .footer .icones {
+    background-color: #e30613;
+  }
+  
+  .senai {
+    width: 20%;
+    display: inline-block;
+    text-align: center;
+    padding: 30px 0 20px 0;
+    margin-left: 29%;
+  }
+  
+  .senai h3 {
+    text-align: left;
+  }
+  
+  .senai p {
+    text-align: left;
+  }
+  
+  .sesi {
+    width: 20%;
+    display: inline-block;
+    margin-left: 3%;
+    text-align: center;
+    padding: 0 0 20px 0px;
+  }
+  
+  .sesi h3 {
+    text-align: left;
+  }
+  
+  .sesi p {
+    text-align: left;
+  }
+  
+  .footer .icons img {
+    display: inline-block;
+    margin-left: 25px;
+  }
+  
+  .icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .footer-text {
+    background-color: #9a1915;
+    color: white;
+  }
