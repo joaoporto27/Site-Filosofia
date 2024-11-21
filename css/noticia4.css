@@ -221,65 +221,65 @@ header {
   border-style: solid;
 }
 
-.title-news {
-  text-align: center;
-  font-size: 3rem;
-  margin: 3rem;
+.section {
+  display: flex;
+  justify-content: center;
 }
 
-.section {
-  justify-content: center;
-  display: flex;
+.title-news {
+  margin: 3rem;
+  text-align: center;
+  font-size: 3rem;
 }
 
 .container-news {
-  justify-content: center;
-  flex-direction: column;
-  gap: 2rem;
   display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-direction: column;
   align-items: center;
 }
 
 .text-news {
-  max-width: 60rem;
   font-size: 1.2rem;
   text-align: justify;
+  max-width: 60rem;
 }
 
 .image-aluno img {
   border: solid;
-  width: 30rem;
   position: relative;
+  width: 30rem;
 }
 
 .text-decoration p {
   font-style: italic;
   font-weight: 700;
-  text-align: center;
   color: #ff0000;
+  text-align: center;
 }
 
 .container-news01 {
+  align-items: center;
+  display: flex;
+  gap: 2rem;
   justify-content: center;
   flex-direction: column;
-  gap: 2rem;
-  display: flex;
-  align-items: center;
 }
 
-.text-news01  {
-  max-width: 60rem;
-  font-size: 1.2rem;
+.text-news01 {
   text-align: justify;
+  font-size: 1.2rem;
+  max-width: 60rem;
 }
 
-.text-decoration01 p {
+.text-decoration01 p{
+  text-align: justify;
   font-style: normal;
   font-weight: 800;
-  text-align: justify;
   max-width: 60rem;
-  
 }
+
 
 .footer {
   background-color: #9a1915;
