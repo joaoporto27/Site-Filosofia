@@ -721,9 +721,9 @@ header {
 
     .carousel-list {
         width: 100%;
-        margin: 5px;
+        margin: 10px; 
         justify-content: center;
-        font-size: 16px;
+        font-size: 18px; 
     }
 
     .introducao {
@@ -814,53 +814,3 @@ header {
     }
 }
 
-@media (max-width: 1024px) {
-    .site-header {
-        flex-direction: row;
-        height: auto;
-        padding: 1rem;
-        width: 100%;
-        font-size: 1rem;
-    }
-
-    .imagens {
-        width: 100%;
-        justify-content: center;
-        height: auto;
-        flex-direction: row;
-    }
-
-    .image-header 
-    .image-header2  {
-        width: 60%;
-    }
-    
-    .image-header img
-    .image-header2 img {
-        width: 100%;
-    }
-
-    .nav-list {
-        flex-direction: column;
-        text-align: center;
-        margin: 0;
-        white-space: nowrap;
-    }
-    .nav-link {
-        padding: 10px;
-        font-size: 1rem;
-    }
-
-    .carousel {
-        flex-direction: row;
-        align-items: center;
-        white-space: nowrap;
-    }
-
-    .carousel-list {
-        margin: 10px;
-        justify-content: center;
-        font-size: 18px;
-        width: 13.6%;
-    }
-}
