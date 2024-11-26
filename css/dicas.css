@@ -343,12 +343,11 @@ header {
     border-width: 0px;
     border-style: solid;
 }
-
-#titulo-main{
+  #titulo-main{
     font-size: 2rem;
     margin-top: 2rem;
-    margin-left: 2rem;
-}
+    margin-left: 10rem;
+  }
 
 .introducao {
     display: flex;
@@ -438,12 +437,6 @@ header {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
-}
-
-
-#titulo-main {
-  text-align: center;
-  margin-bottom: 2rem;
 }
 
 .text-intro {
@@ -582,12 +575,6 @@ header {
         font-size: 18px; 
     }
 
-    #titulo-main {
-        font-size: 1.75rem;
-        margin-left: 1rem;
-        margin-right: 1rem;
-    }
-
     .intro-content {
         flex-direction: column;
         align-items: center;
@@ -692,12 +679,6 @@ header {
     .carousel-list {
         width: 95%;
         margin: 5px 0;
-    }
-
-    #titulo-main {
-        font-size: 1.5rem;
-        margin-left: 1rem;
-        margin-right: 1rem;
     }
 
     .intro-content {
