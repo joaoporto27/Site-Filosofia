@@ -303,6 +303,7 @@ header {
     position: relative;
     width: 100%;
     filter: brightness(50%);
+    height: 42rem;
 }
 
 .painel-text {
