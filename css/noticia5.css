@@ -220,7 +220,44 @@ header {
     border-style: solid;
 }
 
+.section {
+    justify-content: center;
+    display: flex;
+}
 
+.title-news {
+    margin: 3rem;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.container-news {
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+.text-news {
+    max-width: 60rem;
+    font-size: 1.2rem;
+    text-align: justify;
+}
+
+.image-filosofos img {
+    width: 30rem;
+    align-items: center;
+    border-radius: 30px;
+    box-shadow: #000000;
+}
+
+.text-decoration p {
+    font-style: italic;
+    font-weight: 700;
+    text-align: center;
+    color: #ff0000;
+}
 
 .footer {
     background-color: #9a1915;
