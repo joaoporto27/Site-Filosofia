@@ -246,7 +246,7 @@ header {
 }
 
 .author-image {
-    width: 40%;
+    width: 35%;
     border-radius: 2rem;
 }
 
@@ -270,4 +270,9 @@ header {
 
 .discipulo-socrates {
     border-radius: 0.9rem;
+}
+
+.philosopher {
+    text-align: center;
+    opacity: 0.9;
 }
