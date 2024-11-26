@@ -1,80 +1,190 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/noticias13.css">
-    <script src="../js/menu.js"></script>
-    <title>Notícia 13</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/noticias13.css">
+  <script src="../js/menu.js"></script>
+  <title>Notícia 13</title>
 </head>
+
 <body>
-    <header class="site-header">
-        <div class="imagens">
-            <img class="image-header" src="../img/Sesilogo.PNG" alt="">
-            <img class="image-header2" src="../img/Senailogo.PNG" alt="">
-        </div>
-        <div class="line-header"></div>
-        <nav class="main-nav">
-            <ul class="nav-list">
-                <li class="nav-list"><a href="../index.html" class="nav-link">Home</a></li>
-                <li class="nav-list"><a href="../pages/sobre.html" class="nav-link">Sobre-nós</a></li>
-                <li class="nav-list"><a href="" class="nav-link">Cadastre-se</a></li>
-            </ul>
-        </nav>
-        <button onclick="animar(), animarMenu()" id="btn-menu">
-            <span class="linha"></span>
-            <span class="linha"></span>
-            <span class="linha"></span>
-          </button>
-          <div class="menu-mobile" id="menu-materias">
-            <nav class="menu-materias" id="menu-materias">
-              <ul>
-                <li class="menu-title"><div class="materias"><h1>MATÉRIAS</h1></div></li>
-                <li><div><a href="artes.html">Artes</a></div><img src="../img/arrow.png" alt="arrow" class="arrow"></li>
-                <li><div><a href="biologia.html">Biologia</a></div><img src="../img/arrow.png" alt="arrow" class="arrow"></li>
-                <li><div><a href="edFisica.html">Ed. Física</a></div><img src="../img/arrow.png" alt="arrow" class="arrow"></li>
-                <li><div><a href="sociologia.html">Filosofia</a></div><img src="../img/arrow.png" alt="arrow" class="arrow"></li>
-                <li><div><a href="fisica.html">Física</a></div><img src="../img/arrow.png" alt="arrow" class="arrow"></li>
-                <li><div><a href="geografia.html">Geografia</a></div><img src="../img/arrow.png" alt="arrow" class="arrow"></li>
-                <li><div><a href="historia.html">História</a></div><img src="../img/arrow.png" alt="arrow" class="arrow"></li>
-                <li><div><a href="ingles.html">Inglês</a></div><img src="../img/arrow.png" alt="arrow" class="arrow"></li>
-                <li><div><a href="matematica.html">Matemática</a></div><img src="../img/arrow.png" alt="arrow" class="arrow"></li>
-                <li><div><a href="quimica.html">Química</a></div><img src="../img/arrow.png" alt="arrow" class="arrow"></li>
-                <li class="filosofia"><div><a href="filosofia.html" class="filosofia">Filosofia</a></div>
-                  <button onclick="animar2(), animarMenu2()" id="btn-menu2">  
-                    <img src="../img/arrow.png" alt="arrow" class="arrow">
-                  </button>
-                </li>
-                </ul>
-            </nav>
-            <div class="menu-menu" id="menu-menu">
-              <nav class="menu-menu" id="menu-menu">
-                <ul>
-                  <li><div><a href="../index.html">Home</a></div></li>
-                  <li><div><a href="../pages/carreiras.html">Carreiras</a></div></li>
-                  <li><div><a href="../pages/dicas.html">Dicas</a></div></li>
-                  <li><div><a href="../pages/simulados.html">Simulados</a></div></li>
-                  <li><div><a href="../pages/noticias.html">Notícias</a></div></li>
-                  <li><div class="video-aula"><a href="../pages/videoAulas.html">Video aulas</a></div></li>
-                </ul>
-              </nav>
-            </div>
-    </header>
-    <div class="painel">
-        <img class="painel-image" src="../img/noticia13.jpg" alt="">
-        <h1 class="painel-text">
-            <p>FILOSOFIA</p>
-            <p>Estoicismo</p>
-        </h1>
+  <header class="site-header">
+    <div class="imagens">
+      <img class="image-header" src="../img/Sesilogo.PNG" alt="">
+      <img class="image-header2" src="../img/Senailogo.PNG" alt="">
     </div>
-    <div class="carousel">
-      <a href="../index.html" class="carousel-list">Home</a>
-      <a href="./sobre.html" class="carousel-list">Sobre</a>
-      <a href="./carreiras.html" class="carousel-list">Carreiras</a>
-      <a href="./dicas.html" class="carousel-list">Dicas</a>
-      <a href="./simulados.html" class="carousel-list">Simulados</a>
-      <a href="./noticias.html" class="carousel-list">Notícias</a>
-      <a href="./videoAulas.html" class="carousel-list">Vídeo-aulas</a>
+    <div class="line-header"></div>
+    <nav class="main-nav">
+      <ul class="nav-list">
+        <li class="nav-list"><a href="../index.html" class="nav-link">Home</a></li>
+        <li class="nav-list"><a href="../pages/sobre.html" class="nav-link">Sobre-nós</a></li>
+        <li class="nav-list"><a href="" class="nav-link">Cadastre-se</a></li>
+      </ul>
+    </nav>
+    <button onclick="animar(), animarMenu()" id="btn-menu">
+      <span class="linha"></span>
+      <span class="linha"></span>
+      <span class="linha"></span>
+    </button>
+    <div class="menu-mobile" id="menu-materias">
+      <nav class="menu-materias" id="menu-materias">
+        <ul>
+          <li class="menu-title">
+            <div class="materias">
+              <h1>MATÉRIAS</h1>
+            </div>
+          </li>
+          <li>
+            <div><a href="artes.html">Artes</a></div><img src="../img/arrow.png" alt="arrow" class="arrow">
+          </li>
+          <li>
+            <div><a href="biologia.html">Biologia</a></div><img src="../img/arrow.png" alt="arrow" class="arrow">
+          </li>
+          <li>
+            <div><a href="edFisica.html">Ed. Física</a></div><img src="../img/arrow.png" alt="arrow" class="arrow">
+          </li>
+          <li>
+            <div><a href="sociologia.html">Filosofia</a></div><img src="../img/arrow.png" alt="arrow" class="arrow">
+          </li>
+          <li>
+            <div><a href="fisica.html">Física</a></div><img src="../img/arrow.png" alt="arrow" class="arrow">
+          </li>
+          <li>
+            <div><a href="geografia.html">Geografia</a></div><img src="../img/arrow.png" alt="arrow" class="arrow">
+          </li>
+          <li>
+            <div><a href="historia.html">História</a></div><img src="../img/arrow.png" alt="arrow" class="arrow">
+          </li>
+          <li>
+            <div><a href="ingles.html">Inglês</a></div><img src="../img/arrow.png" alt="arrow" class="arrow">
+          </li>
+          <li>
+            <div><a href="matematica.html">Matemática</a></div><img src="../img/arrow.png" alt="arrow" class="arrow">
+          </li>
+          <li>
+            <div><a href="quimica.html">Química</a></div><img src="../img/arrow.png" alt="arrow" class="arrow">
+          </li>
+          <li class="filosofia">
+            <div><a href="filosofia.html" class="filosofia">Filosofia</a></div>
+            <button onclick="animar2(), animarMenu2()" id="btn-menu2">
+              <img src="../img/arrow.png" alt="arrow" class="arrow">
+            </button>
+          </li>
+        </ul>
+      </nav>
+      <div class="menu-menu" id="menu-menu">
+        <nav class="menu-menu" id="menu-menu">
+          <ul>
+            <li>
+              <div><a href="../index.html">Home</a></div>
+            </li>
+            <li>
+              <div><a href="../pages/carreiras.html">Carreiras</a></div>
+            </li>
+            <li>
+              <div><a href="../pages/dicas.html">Dicas</a></div>
+            </li>
+            <li>
+              <div><a href="../pages/simulados.html">Simulados</a></div>
+            </li>
+            <li>
+              <div><a href="../pages/noticias.html">Notícias</a></div>
+            </li>
+            <li>
+              <div class="video-aula"><a href="../pages/videoAulas.html">Video aulas</a></div>
+            </li>
+          </ul>
+        </nav>
+      </div>
+  </header>
+  <div class="painel">
+    <img class="painel-image" src="../img/noticia13.jpg" alt="">
+    <h1 class="painel-text">
+      <p>FILOSOFIA</p>
+      <p>Estoicismo</p>
+    </h1>
   </div>
+  <div class="carousel">
+    <a href="../index.html" class="carousel-list">Home</a>
+    <a href="./sobre.html" class="carousel-list">Sobre</a>
+    <a href="./carreiras.html" class="carousel-list">Carreiras</a>
+    <a href="./dicas.html" class="carousel-list">Dicas</a>
+    <a href="./simulados.html" class="carousel-list">Simulados</a>
+    <a href="./noticias.html" class="carousel-list">Notícias</a>
+    <a href="./videoAulas.html" class="carousel-list">Vídeo-aulas</a>
+  </div>
+  <main>
+    <div class="main-content">
+      <h1 id="titulo-main">O que é estoicismo</h1>
+      <section class="introducao">
+        <div class="intro-content">
+          <div class="text-content">
+            <h1 class="titulo">Estoicismo: uma filosofia de paz interior e autocontrole</h1>
+            <p class="text-intro">
+              O estoicismo, filosofia nascida no século III a.C. em Atenas, é uma escola que busca a paz interior
+              através do autocontrole e diz que a verdadeira felicidade não depende de condições externas, mas de como
+              respondemos a elas. Este ensinamento nos ensina a viver com sabedoria, a aceitar o que não podemos
+              controlar e a desenvolver uma indiferença saudável diante das coisas que não podem ser controladas, sempre
+              considerando o bem como o bem maior.
+            </p>
+          </div>
+          <img class="img-main" src="../img/noticia13-1.png" alt="">
+        </div>
+
+        <div class="intro-content2">
+          <div class="text-content2">
+            <h1 class="titulo">O que é coragem?</h1>
+            <p class="text-intro">
+              Desenvolvido por Zenão de Cítio, o Estoicismo ensina que a felicidade reside na nossa capacidade de agir
+              com sabedoria e controlar as nossas emoções. Segundo os filósofos estóicos, a raiz do nosso sofrimento vem
+              das reações negativas aos acontecimentos externos. Em vez de tentar controlar o incontrolável, os estóicos
+              sugeriram que buscássemos estabilidade aceitando calmamente o destino. Central na filosofia estóica é a
+              ideia de ataraxia, um estado de tranquilidade que só pode ser alcançado por meio de habilidade e sabedoria
+              pessoal.
+            </p>
+          </div>
+          <img class="img-main2" src="../img/noticia13-2.png" alt="">
+        </div>
+
+        <div class="intro-content">
+          <div class="text-content">
+            <h1 class="titulo">As principais características do estoicismo</h1>
+            <p class="text-intro">
+              Razão e controle das emoções: Para os estóicos, a razão deveria guiar todas as nossas ações, ajudar-nos a
+              compreender a natureza do sofrimento e a superar sentimentos perturbadores. </p>
+            <p class="text-intro">Aceitação do Destino: O
+              estoicismo ensina a aceitar a vida como ela é, com seus altos e baixos, sem tentar mudar o inevitável. A
+              paz de espírito vem ao perceber que muitas coisas na vida estão além do nosso controle.</p>
+            <p class="text-intro"> Indiferença ao Incontrolável (Apatheia): Uma característica básica do Estoicismo é a
+              apatia, que
+              significa
+              cultivar uma atitude de indiferença diante daquilo que não podemos mudar. Isso permitirá que você viva de
+              uma forma mais leve e tranquila. </p>
+            <p lass="text-intro">Busca da Virtude: A virtude é considerada a maior virtude, e viver em harmonia com a
+              natureza – isto é,
+              agir com moral e sabedoria – é o caminho para a verdadeira felicidade.</p>
+            </p>
+          </div>
+          <img class="img-main3" src="../img/noticia13-3.png" alt="">
+        </div>
+        <div class="intro-content2">
+          <div class="text-content2">
+            <h1 class="titulo">Filosofia e prática</h1>
+            <p class="text-intro">
+              Grandes filósofos estóicos como Zenão de Cítio, Crisipo de Solos, Sêneca, Epicteto e Marco Aurélio
+              compartilharam ensinamentos sobre como aplicar esses princípios à vida cotidiana. Por exemplo, Epicteto,
+              um ex-escravo que se tornou um dos maiores filósofos estóicos, disse que a verdadeira liberdade vem da
+              aceitação das circunstâncias da vida e das mudanças internas. Ele ensinou que “não são as coisas em si que
+              nos atormentam, mas a nossa interpretação delas”.
+            </p>
+          </div>
+          <img class="img-main2" src="../img/noticia13-4.png" alt="">
+        </div>
+      </section>
+    </div>
+  </main>
 </body>
+
 </html>
