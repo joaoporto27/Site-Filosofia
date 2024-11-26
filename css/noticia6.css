@@ -245,7 +245,19 @@ header {
     text-align: justify;
 }
 
+.image-filosofos img{
+    width: 30rem;
+    align-items: center;
+    border-radius: 30px;
+}
 
+
+.text-decoration p {
+    font-style: italic;
+    font-weight: 700;
+    text-align: center;
+    color: #ff0000;
+}
 
 .footer {
     background-color: #9a1915;
