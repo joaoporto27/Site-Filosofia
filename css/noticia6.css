@@ -247,10 +247,17 @@ header {
 
 .image-filosofos img{
     width: 30rem;
+    margin: 2rem;
     align-items: center;
     border-radius: 30px;
 }
 
+.image-academia img {
+    width: 20rem;
+    margin: 2rem;
+    align-items: center;
+    border-radius: 30px;
+}
 
 .text-decoration p {
     font-style: italic;
