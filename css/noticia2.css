@@ -241,11 +241,33 @@ header {
     font-size: 1.2rem;
 }
 
+.socrates-image {
+    border-radius: 2rem;
+}
+
 .author-image {
-    width: 50%;
+    width: 40%;
+    border-radius: 2rem;
 }
 
 .legenda {
     max-width: 30rem;
     opacity: 0.8;
+}
+
+.discipulos-socrates img {
+    width: 15rem; 
+    height: 20rem;
+}
+
+.discipulos-socrates {
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+    justify-content:center ;
+    align-items: end;
+}
+
+.discipulo-socrates {
+    border-radius: 0.9rem;
 }
