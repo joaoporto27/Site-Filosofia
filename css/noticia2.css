@@ -295,7 +295,7 @@ body {
     visibility: visible;
     max-height: 30.25rem;
   }
-  
+
 .painel {
     position: relative;
   }
@@ -400,6 +400,11 @@ body {
 .philosopher {
     text-align: center;
     opacity: 0.9;
+}
+
+.book {
+  width: 18rem; 
+  height: 20rem;
 }
 
 .footer {
