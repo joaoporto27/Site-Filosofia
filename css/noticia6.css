@@ -220,6 +220,31 @@ header {
     border-style: solid;
 }
 
+.section {
+    justify-content: center;
+    display: flex;
+}
+
+.title-news {
+    margin: 3rem;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.container-news {
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+.text-news {
+    max-width: 60rem;
+    font-size: 1.2rem;
+    text-align: justify;
+}
+
 
 
 .footer {
