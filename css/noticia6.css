@@ -247,6 +247,7 @@ header {
 
 .image-filosofos img{
     width: 30rem;
+    margin: 2rem;
     align-items: center;
     border-radius: 30px;
 }
