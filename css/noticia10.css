@@ -497,3 +497,44 @@ header {
     width: fit-content;
     border-radius: 2.5rem;
 }
+
+.letter-new {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+  margin-top: 3rem;
+}
+
+.letter-new img {
+  width: 100%;
+  height: 35rem;
+  width: fit-content;
+  border-radius: 2.5rem;
+  filter: drop-shadow(0 0 1rem #000000);
+    box-shadow: 1px 1px 1rem #000000;
+}
+
+.letter-text {
+  display: flex;
+  font-size: 1.25rem;
+  text-align: justify;
+  max-width: 50rem;
+  hyphens: auto;
+  word-spacing: 0.1em;
+  text-align-last: left;
+  flex-direction: column;
+  gap: 5rem;
+  line-height: 2.5rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.title-letter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  margin-top: 1.5rem;
+  gap: 3rem;
+}
