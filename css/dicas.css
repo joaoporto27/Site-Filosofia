@@ -520,13 +520,12 @@ header {
   }
 
 @media (max-width: 768px) {
-    .site-header {
-        flex-direction: column;
-        height: auto;
-        padding: 1rem;
-        width: auto;
-        font-size: 1rem;
-    }
+  header {
+    height: auto;
+    width: 100%;
+    font-size: 1rem;    
+    padding: 1rem;
+}
 
     .imagens {
         width: auto;
@@ -575,15 +574,33 @@ header {
         font-size: 18px; 
     }
 
-    .intro-content {
-        flex-direction: column;
-        align-items: center;
-        margin: 1rem 0;
+    .row-cards {
+      display: flex;
+      flex-direction: column;
     }
 
-    .dica-img {
-        width: 80%;
-        margin-left: 0;
+    .container-card {
+      width: 100%;
+    }
+
+    .container-card img {
+      width: 40%;
+      height: 100%;
+      border-radius: 1rem;
+      margin-left: 0.5rem;
+    }
+    
+    .titulo {
+      margin-left: 1rem;
+    }
+
+    .subtitulo {
+      margin-left: 1rem;
+    }
+
+    .text-intro {
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
     }
 
     .text-intro {
