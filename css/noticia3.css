@@ -345,3 +345,210 @@ body {
     border-width: 0px;
     border-style: solid;
 }
+
+.news-title {
+  margin: 3rem;
+  text-align: center;
+  font-size: 3rem;
+}
+
+.news-content {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+} 
+
+
+.socrates-image {
+  width: 40%;
+  border-radius: 2rem;
+}
+
+.news-text {
+  text-align: justify;
+  max-width: 60rem;
+  font-size: 1.2rem;
+}
+
+.book {
+  width: 15%;
+  border-radius: 2rem;
+}
+
+.footer {
+  background-color: #9a1915;
+  color: white;
+  margin-top: 50px;
+}
+
+.footer .icones {
+  background-color: #e30613;
+}
+
+.senai {
+  width: 20%;
+  display: inline-block;
+  text-align: center;
+  padding: 30px 0 20px 0;
+  margin-left: 29%;
+}
+
+.senai h3 {
+  text-align: left;
+}
+
+.senai p {
+  text-align: left;
+}
+
+.sesi {
+  width: 20%;
+  display: inline-block;
+  margin-left: 3%;
+  text-align: center;
+  padding: 0 0 20px 0px;
+}
+
+.sesi h3 {
+  text-align: left;
+}
+
+.sesi p {
+  text-align: left;
+}
+
+.footer .icons img {
+  display: inline-flex;
+  margin-left: 25px;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-text {
+  background-color: #9a1915;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .site-header {
+      flex-direction: column;
+      height: auto;
+      padding: 1rem;
+      width: auto;
+      font-size: 1rem;
+  }
+
+  .imagens {
+      width: auto;
+      justify-content: center;
+      height: auto;
+  }
+
+  .image-header, .image-header2 {
+      width: 40%;
+      height: auto;
+      padding: 10px;
+      margin-left: 0;
+  }
+
+  .line-header {
+      display: none;
+  }
+
+  .nav-list {
+      width: 100%;
+      flex-direction: column;
+      text-align: center;
+      margin: 0;
+  }
+
+  .nav-link {
+      padding: 10px; 
+      font-size: 1rem; 
+  }
+
+  .painel-image {
+    height: 19rem;
+  }
+
+  .painel-text {
+      top: 100px; 
+      left: 20px; 
+      font-size: 1.5rem;
+      text-align: left;
+  }
+
+  .carousel {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .carousel-list {
+      width: 100%;
+      margin: 10px; 
+      justify-content: center;
+      font-size: 18px; 
+  }
+
+  .news-title {
+      padding: 2rem;
+  }
+
+  .news-text {
+  padding: 0 5rem;
+  }
+
+  .socrates-image {
+      width: 90%;
+  }
+
+  .book {
+      width: 30%;
+  }
+  
+  .control-page {
+      flex-direction: column;
+      gap: 1.5rem; 
+  }
+
+  .icon-pages {
+      width: 100%; 
+      margin: 0.5rem 0;
+  }
+
+  .icon-pages img {
+      width: 5rem;
+      height: 5rem;
+  }
+
+  .text-page {
+      font-size: 1rem;
+  }
+  .senai,
+  .sesi {
+      width: 100%; 
+      text-align: center; 
+      margin-left: 0;
+      padding: 15px 0; 
+  }
+
+  .senai h3, .sesi h3, .senai p, .sesi p {
+      text-align: center; 
+  }
+
+  .footer .icons img {
+      width: 35px; 
+      height: 35px;
+      margin-left: 10px;
+  }
+
+  .footer {
+      padding: 15px 0; 
+  }
+}
