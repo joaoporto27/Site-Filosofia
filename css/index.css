@@ -485,7 +485,6 @@ header {
 
 @media (max-width: 768px) {
     .site-header {
-        flex-direction: column;
         height: auto;
         padding: 1rem;
         width: 100%;
