@@ -294,3 +294,53 @@ header {
     visibility: visible;
     max-height: 30.25rem;
   }
+
+  .painel {
+    position: relative;
+}
+
+.painel-image {
+    position: relative;
+    width: 100%;
+    filter: brightness(50%);
+    height: 42rem;
+}
+
+.painel-text {
+    position: absolute;
+    color: aliceblue;
+    top: 170px;
+    left: 50px;
+    font-size: 2.5rem;
+}
+
+.carousel {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem;
+}
+
+.carousel-list {
+    cursor: pointer;
+    border: 0px solid rgb(0, 0, 0);
+    font-size: 1.075rem;
+    color: rgb(255, 255, 255);
+    padding: 10px 30px;
+    transition: 1328ms;
+    width: 13%;
+    box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+    border-radius: 3rem;
+    text-decoration: none;
+    text-align: center;
+    background: linear-gradient(178deg, #e30613 0%, rgb(92, 0, 0) 100%);
+}
+
+.carousel-list:hover {
+    color: rgb(255, 255, 255);
+    width: 14.5%;
+    background: linear-gradient(178deg, #e30613 0%, rgb(92, 0, 0) 100%);
+    border-color: #e30613;
+    border-width: 0px;
+    border-style: solid;
+}
