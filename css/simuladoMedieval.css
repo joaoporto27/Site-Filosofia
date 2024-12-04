@@ -362,8 +362,12 @@ header {
     margin-bottom: 3rem;
 }
 
-.banner-site {
-    background-image: linear-gradient(to Left, rgba(0, 0, 0, 0.848), rgba(0, 0, 0, 0.634)), url('../img/banner-simulado.jpg');
+
+.question-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #9a1915;
 }
 
 .container-title {
@@ -398,7 +402,6 @@ header {
     display: block;
     margin: 10px 0;
     padding: 10px;
-    border: 1px solid #ccc;
     border-radius: 5px;
     cursor: pointer;
 }
@@ -416,6 +419,8 @@ header {
 .divisor-section {
     margin-top: 1rem;
     margin-bottom: 1rem; 
+    display: flex;
+    justify-content: center;
 }
 
 hr.divisor {
