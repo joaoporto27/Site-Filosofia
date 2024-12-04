@@ -413,3 +413,12 @@ header {
     margin-top: 5rem ;
     gap: 10rem;
   }
+
+  .topic-3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5rem ;
+    gap: 10rem;
+  }
