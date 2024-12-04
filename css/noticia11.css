@@ -344,3 +344,32 @@ header {
     border-width: 0px;
     border-style: solid;
 }
+
+.introduction {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title-introduction {
+    font-size: 2.5rem;
+}
+
+.text-introduction {
+    font-size: 1.25rem;
+    max-width: 80rem;
+    hyphens: auto;
+    word-spacing: 0.5em;
+    text-align-last: left
+}
+
+.line01 {
+    background-color: #9a1915;
+    width: 70%;
+    height: 0.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+  }
