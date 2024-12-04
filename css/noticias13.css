@@ -401,6 +401,23 @@ header {
   margin-right: 5rem;
 }
 
+.img-main4 {
+  width: 30rem;
+  height: 22rem;
+  width: fit-content;
+  border-radius: 2.5rem;
+  filter: drop-shadow(0 0 1rem #000000);
+  box-shadow: 1px 1px 1rem #5e5e5e;
+  margin-top: 3rem;
+  margin-left: 10rem;
+}
+
+.img-main4 img {
+  width: 100%;
+  height: 100%;
+  border-radius: 2.5rem;
+}	
+
 .text-content {
   max-width: 60rem;
   text-align: justify;
@@ -511,4 +528,405 @@ header {
   color: #000000;
   font-size: 1.3rem;
   text-align: center;
+}
+
+@media (max-width: 480px) {
+  header {
+      flex-direction: column;
+      height: auto;
+      width: 100%;
+      font-size: 1rem;
+      align-items: center;
+      justify-content: center;
+  }
+
+  .imagens {
+      width: 100%;
+      justify-content: center;
+      height: auto;
+      flex-direction: column;
+  }
+
+  .image-header,
+  .image-header2 {
+      width: 60%;
+  }
+
+  .line-header {
+      display: none;
+  }
+
+  .main-nav {
+      width: 100%;
+      display: flex;
+      font-size: 1rem;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+  }
+
+  .nav-list {
+      width: 100%;
+      font-size: 1rem;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .nav-link {
+      width: 100%;
+      font-size: 1rem;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .painel-image {
+      height: 15rem;
+  }
+
+  .painel-text {
+      top: 70px;
+      left: 10px;
+      font-size: 1.2rem;
+      text-align: left;
+      margin-bottom: 1rem;
+  }
+
+  .carousel {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .carousel-list {
+      width: 100%;
+      margin: 10px; 
+      justify-content: center;
+      font-size: 18px; 
+  }
+
+  #titulo-main {
+      font-size: 1.5rem;
+      margin-top: 1rem;
+      margin-left: 1rem;
+  }
+
+  .intro-content {
+      text-align: left;
+      width: 100%;
+      margin-bottom: 1rem;
+      display: flex;
+      flex-direction: column;
+  }
+
+  .intro-content2 {
+    text-align: left;
+    width: 100%;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+  .text-content {
+      max-width: 90%;
+      text-align: left;
+      margin-left: 0.5rem;
+      font-size: 1.1rem;
+      margin-right: 1.1rem;
+  }
+
+  .text-intro{
+      width: 90%;
+      text-align: left;
+      margin-left: 0.5rem;
+      font-size: 1.1rem;
+      margin-right: 1.1rem;
+  }
+
+  .text-content2 {
+    width: 90%;
+    text-align: center;
+    margin-left: 1rem;
+    margin-right: 0.1rem;
+    font-size: 1.1rem;
+    hyphens: auto;
+  }
+
+  .img-main {
+      width: 17rem;
+      height: auto;
+      justify-content: center;
+      display: flex;
+      margin-left: 4rem;
+  }
+
+  .img-main2 {
+    width: 17rem;
+    height: auto;
+    margin-right: 10rem;
+    justify-content: center;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.img-main3 {
+  width: 17rem;
+  height: auto;
+  justify-content: center;
+  display: flex;
+  margin-left: 4rem;
+}
+
+.img-main4 {
+  width: 17rem;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-right: 10rem;
+}
+
+  .titulo {
+      font-size: 1.2rem;
+      white-space: wrap;
+  }
+
+  .carousel-list {
+      font-size: 1rem;
+  }
+
+  .icon-pages {
+      width: 100%;
+      margin: 0.5rem 0;
+  }
+
+  .icon-pages img {
+      width: 3.5rem;
+      height: 3.5rem;
+  }
+
+  .text-page {
+      font-size: 1rem;
+  }
+
+  .enderecos{
+    max-width: 100%;
+    text-align: justify;
+    hyphens: auto;
+    word-spacing: 0.1em;
+    text-align-last: left;
+    flex-direction: column;
+}
+  .senai,
+  .sesi {
+  width: 100%;
+  padding: 10px 0;
+  margin-left: 1rem;
+  hyphens: auto;
+  margin-left: 0;
+  text-align: left;
+  }
+  .footer .icons img {
+      width: 30px;
+      height: 30px;
+      margin-left: 5px;
+  }
+
+  .footer .icons {
+      flex-wrap: wrap;
+  }
+
+  .senai h3,
+  .sesi h3,
+  .senai p,
+  .sesi p {
+      font-size: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .site-header {
+      height: auto;
+      padding: 1rem;
+      width: 100%;
+      font-size: 1rem;
+  }
+
+  .imagens {
+      width: auto;
+      justify-content: center;
+      height: auto;
+  }
+
+  .image-header,
+  .image-header2 {
+      width: 40%;
+      padding: 10px;
+      margin-left: 0;
+  }
+
+  .line-header {
+      display: none;
+  }
+
+  .nav-list {
+      width: 100%;
+      flex-direction: column;
+      text-align: center;
+      margin: 0;
+  }
+
+  .nav-link {
+      padding: 10px;
+      font-size: 1rem;
+  }
+
+  .painel-image{
+      width: 100%;
+      height: 15rem;
+  }
+
+  .painel-text {
+      top: 100px;
+      left: 20px;
+      font-size: 1.5rem;
+      text-align: left;
+  }
+
+  .carousel {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .carousel-list {
+      width: 100%;
+      margin: 10px;
+      justify-content: center;
+      font-size: 18px;
+  }
+
+  .intro-content {
+    text-align: left;
+    width: 100%;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.intro-content2 {
+  text-align: left;
+  width: 100%;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.text-content {
+    max-width: 90%;
+    text-align: left;
+    margin-left: 0.5rem;
+    font-size: 1.1rem;
+    margin-right: 1.1rem;
+}
+
+.text-intro{
+    width: 90%;
+    text-align: left;
+    margin-left: 0.5rem;
+    font-size: 1.1rem;
+    margin-right: 1.1rem;
+}
+
+.text-content2 {
+  width: 90%;
+  text-align: center;
+  margin-left: 1rem;
+  font-size: 1.1rem;
+  hyphens: auto;
+}
+
+.img-main {
+    width: 17rem;
+    height: auto;
+    justify-content: center;
+    display: flex;
+    margin-left: 4rem;
+}
+
+.img-main2 {
+  width: 17rem;
+  height: auto;
+  margin-right: 10rem;
+  justify-content: center;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.img-main3 {
+width: 17rem;
+height: auto;
+justify-content: center;
+display: flex;
+margin-left: 4rem;
+}
+
+.img-main4 {
+width: 17rem;
+height: auto;
+justify-content: center;
+align-items: center;
+display: flex;
+margin-right: 10rem;
+}
+
+  .icons {
+      display: flex;
+      flex-direction: row;
+  }
+
+  .icon-pages {
+      width: 10rem;
+      height: 10rem;
+      display: flex;
+      flex-direction: row;
+  }
+
+  .icon-pages img {
+      width: 100%;
+      height: 100%;
+  }
+
+  .text-page {
+      font-size: 1rem;
+  }
+
+  .senai,
+  .sesi {
+      width: 100%;
+      text-align: center;
+      margin-left: 0;
+      padding: 15px 0;
+  }
+
+  .enderecos {
+      justify-content: center;
+      align-items: center;
+      display: flex;
+  }
+
+  .senai h3,
+  .sesi h3,
+  .senai p,
+  .sesi p {
+      text-align:start;
+      display: flex;
+      flex-direction: column;
+  }
+
+  .footer .icons img {
+      width: 5rem;
+      height: 5rem;
+  }
 }
