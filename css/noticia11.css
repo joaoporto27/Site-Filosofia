@@ -357,7 +357,7 @@ header {
 }
 
 .text-introduction {
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     max-width: 80rem;
     hyphens: auto;
     word-spacing: 0.5em;
@@ -372,4 +372,35 @@ header {
     align-items: center;
     justify-content: center;
     margin-top: 1rem;
+  }
+
+  .topics-new {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .topic-1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1.5rem ;
+    gap: 10rem;
+  }
+
+  .text-topic {
+    font-size: 1.75rem;
+    max-width: 50rem;
+    hyphens: auto;
+    word-spacing: 0.5em;
+    text-align-last: left
+  }
+
+  .image-topics {
+    width: 25rem;
+    height: 35rem;
+    width: fit-content;
+    border-radius: 2.5rem;
   }
