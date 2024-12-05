@@ -18,86 +18,82 @@ body {
 
 
 header {
-    background-color: #e30613;
-    color: #ffffff;
-    padding: 1rem 0;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    flex-direction: row;
-    height: 8.125rem;
+  background-color: rgb(227, 6, 19);
+  color: rgb(255, 255, 255);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+  height: 8.125rem;
 }
 
 .nav-link {
-    font-family: "Montserrat", sans-serif;
-    font-weight: bold;
-    display: flex;
-    justify-content: space-between;
-    list-style: none;
-    gap: 1.5rem;
-    margin-right: 4rem;  
-    text-decoration: none;
-    color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  gap: 1.5rem;
+  text-decoration: none;
+  color: #ffffff;
 }
 
 .nav-link a {
-    display: flex;
-    color: #ffffff;
-    font-size: 1.3rem;
-    border-bottom: 3px solid transparent;
-    border-radius: 3px;
-    cursor: pointer;
-    transition: transform 0.3s ease;
+  display: flex;
+  color: #ffffff;
+  font-size: 1.3rem;
+  border-bottom: 3px solid transparent;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
 }
 
-
 .main-nav .nav-list {
-    list-style: none;
-    margin: 0 3rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 1rem;
+  list-style: none;
+  margin: 0 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1rem;
 }
 
 .nav-list {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .imagens {
-    width: 50%;
-    display: flex;
-    flex-direction: row;
+  width: 50%;
+  display: flex;
+  flex-direction: row;
 }
 
 .image-header {
-    width: 24%;
-    height: 5%;
-    align-items: center;
-    display: flex;
-    padding: 20px;
-    margin-left: 5px;
+  width: 24%;
+  height: 5%;
+  align-items: center;
+  display: flex;
+  padding: 20px;
+  margin-left: 5px;
 }
 
 .image-header2 {
-    width: 19.7%;
-    height: 5%;
-    align-items: center;
-    display: flex;
-    padding: 20px;
-    margin-left: 5px;
+  width: 19.7%;
+  height: 5%;
+  align-items: center;
+  display: flex;
+  padding: 20px;
+  margin-left: 5px;
 }
 
 .line-header {
-    height: 50px;
-    width: 3px;
-    background-color: #ffffff;
-    margin: 0 20px;
-    margin-right: 20px;
+  height: 50px;
+  width: 3px;
+  background-color: #ffffff;
+  margin: 0 20px;
+  margin-right: 20px;
 }
 
 .menu-mobile ul {
@@ -510,3 +506,241 @@ button:hover {
     font-size: 1.3rem;
     text-align: center;
 }
+
+@media (max-width: 780px) {
+  header {
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+    font-size: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagens {
+    width: 100%;
+    justify-content: center;
+    height: auto;
+    flex-direction: column;
+}
+
+.image-header,
+.image-header2 {
+    width: 60%;
+}
+
+.line-header {
+    display: none;
+}
+
+.main-nav {
+    width: 100%;
+    display: flex;
+    font-size: 1rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-list {
+    width: 100%;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav-link {
+    width: 100%;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+  .painel-text {
+      top: 100px; 
+      left: 20px; 
+      font-size: 1.5rem;
+      text-align: left;
+  }
+
+  .carousel {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .carousel-list {
+      width: 100%;
+      margin: 10px; 
+      justify-content: center;
+      font-size: 18px; 
+  }
+
+  .senai,
+    .sesi {
+        width: 100%; 
+        text-align: center; 
+        margin-left: 0;
+        padding: 15px 0; 
+    }
+
+    .senai h3, .sesi h3, .senai p, .sesi p {
+        text-align: center; 
+    }
+
+    .footer .icons img {
+        width: 35px; 
+        height: 35px;
+        margin-left: 10px;
+    }
+
+    .footer {
+        padding: 15px 0; 
+    }
+}
+
+@media (max-width: 480px) {
+  header {
+     flex-direction: column;
+     height: auto;
+     width: 100%;
+     font-size: 1rem;
+     align-items: center;
+     justify-content: center;
+   }
+
+   .imagens {
+       width: 100%;
+       justify-content: center;
+       height: auto;
+       flex-direction: column;
+   }
+
+   .image-header, 
+   .image-header2 {
+       width: 40%;
+   }
+
+   .main-nav {
+     width: 100%;
+     display: flex;
+     font-size: 1rem;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+ }
+
+   .nav-list {
+       width: 100%;
+       flex-direction: column;
+       text-align: center;
+       margin: 0;
+   }
+
+   .nav-link {
+       padding: 10px; 
+       font-size: 1rem; 
+   }
+
+   .carousel {
+       flex-direction: column;
+       align-items: center;
+   }
+
+   .carousel-list {
+       width: 100%;
+       margin: 10px; 
+       justify-content: center;
+       font-size: 18px; 
+   }
+
+   .painel-text {
+       top: 2rem;
+       left: 1rem;
+       font-size: 1.2rem;
+       text-align: left;
+       margin-bottom: 1rem; 
+   }
+
+   .carousel {
+       flex-direction: column;
+       align-items: center;
+   }
+
+   .carousel-list {
+       width: 95%;
+       margin: 5px 0;
+   }
+   .icon-pages {
+    width: 100%; 
+    margin: 0.5rem 0;
+}
+
+.icon-pages img {
+    width: 5rem;
+    height: 5rem;
+}
+
+.text-page {
+    font-size: 1rem;
+}
+
+.senai,
+.sesi {
+    width: 100%; 
+    text-align: center; 
+    margin-left: 0;
+    padding: 15px 0; 
+}
+
+.senai h3, .sesi h3, .senai p, .sesi p {
+    text-align: center; 
+}
+
+.footer .icons img {
+    width: 35px; 
+    height: 35px;
+    margin-left: 10px;
+}
+
+.footer {
+    padding: 15px 0; 
+}
+
+.icon-pages {
+  width: 100%; 
+  margin: 0.5rem 0;
+}
+
+.icon-pages img {
+  width: 5rem;
+  height: 5rem;
+}
+
+.text-page {
+  font-size: 1rem;
+}
+.senai,
+.sesi {
+  width: 100%; 
+  text-align: center; 
+  margin-left: 0;
+  padding: 15px 0; 
+}
+
+.senai h3, .sesi h3, .senai p, .sesi p {
+  text-align: center; 
+}
+
+.footer .icons img {
+  width: 35px; 
+  height: 35px;
+  margin-left: 10px;
+}
+
+.footer {
+  padding: 15px 0; 
+}
+  }
