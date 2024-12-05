@@ -315,3 +315,200 @@ header {
     background-color: #9a1915;
     color: white;
 }
+
+@media (max-width: 768px) {
+    .site-header {
+        flex-direction: column;
+        height: auto;
+        padding: 1rem;
+        width: auto;
+        font-size: 1rem;
+    }
+
+    .imagens {
+        width: auto;
+        justify-content: center;
+        height: auto;
+    }
+
+    .image-header,
+    .image-header2 {
+        width: 40%;
+        height: auto;
+        padding: 10px;
+        margin-left: 0;
+    }
+
+    .line-header {
+        display: none;
+    }
+
+    .nav-list {
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+        margin: 0;
+    }
+
+    .nav-link {
+        padding: 10px;
+        font-size: 1rem;
+    }
+
+    .painel-image {
+        height: 19rem;
+    }
+
+    .painel-text {
+        top: 100px;
+        left: 20px;
+        font-size: 1.5rem;
+        text-align: left;
+    }
+
+    .carousel {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .carousel-list {
+        width: 100%;
+        margin: 10px;
+        justify-content: center;
+        font-size: 18px;
+    }
+
+    .text-news {
+        padding: 3rem;
+    }
+
+    .text-news01 {
+        padding: 3rem;
+    }
+
+    .text-decoration {
+        padding: 3rem;
+    }
+
+    .senai,
+    .sesi {
+        width: 100%;
+        text-align: center;
+        margin-left: 0;
+        padding: 15px 0;
+    }
+
+    .senai h3,
+    .sesi h3,
+    .senai p,
+    .sesi p {
+        text-align: center;
+    }
+
+    .footer .icons img {
+        width: 35px;
+        height: 35px;
+        margin-left: 10px;
+    }
+
+    .footer {
+        padding: 15px 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .site-header {
+        flex-direction: column;
+        height: auto;
+        padding: 1rem;
+        width: auto;
+        font-size: 1rem;
+    }
+    
+    .imagens {
+        width: auto;
+        justify-content: center;
+        height: auto;
+    }
+    
+    .image-header, .image-header2 {
+        width: 40%;
+        height: auto;
+        padding: 10px;
+        margin-left: 0;
+    }
+    
+    .line-header {
+        display: none;
+    }
+    
+    .nav-list {
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+        margin: 0;
+    }
+    
+    .nav-link {
+        padding: 10px; 
+        font-size: 1rem; 
+    }
+    
+    .painel-image {
+      height: 19rem;
+    }
+    
+    .painel-text {
+        top: 100px; 
+        left: 20px; 
+        font-size: 1.5rem;
+        text-align: left;
+    }
+    
+    .carousel {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .carousel-list {
+        width: 100%;
+        margin: 10px; 
+        justify-content: center;
+        font-size: 18px; 
+    }
+
+    .title-news {
+        font-size: 200%;
+    }
+
+    .text-news {
+    padding: 3rem;
+    }
+
+    .image-filosofos {
+        max-width: 450px;
+        width: 100%;
+        height: auto;
+    }
+    .senai,
+  .sesi {
+      width: 100%; 
+      text-align: center; 
+      margin-left: 0;
+      padding: 15px 0; 
+  }
+
+  .senai h3, .sesi h3, .senai p, .sesi p {
+      text-align: center; 
+  }
+
+  .footer .icons img {
+      width: 35px; 
+      height: 35px;
+      margin-left: 10px;
+  }
+
+  .footer {
+      padding: 15px 0; 
+  }
+}
